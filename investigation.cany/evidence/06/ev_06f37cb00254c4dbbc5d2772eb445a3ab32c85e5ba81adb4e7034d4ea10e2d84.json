@@ -1,0 +1,45 @@
+{
+  "id": "ev_06f37cb00254c4dbbc5d2772eb445a3ab32c85e5ba81adb4e7034d4ea10e2d84",
+  "subject": {
+    "kind": "pe",
+    "sha256": "e653386e854b5588f212117bfa4e5bee7c0d52806e97bbf4f099a373e0c55e39",
+    "name": "skills-browser.exe"
+  },
+  "operation": "native_function_pseudocode",
+  "params": {
+    "function": "0x140011ad0"
+  },
+  "result": {
+    "engine": "ghidra",
+    "entry": "0x140011ad0",
+    "function": "entry",
+    "pseudo_code": "\r\nvoid entry(void)\r\n\r\n{\r\n  FUN_1400122b4();\r\n  FUN_14001194c();\r\n  return;\r\n}\r\n\r\n",
+    "signature": "void entry(void);"
+  },
+  "summary": "Pseudo-C for entry from the Deep engine (9 lines).",
+  "confidence": "derived",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "ghidra",
+    "engine_version": "12.1.4",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "deep_engine",
+      "message": "the pseudo-C comes from the external Deep engine (Ghidra), not the original source"
+    }
+  ],
+  "coverage": {
+    "status": "unknown"
+  },
+  "locations": [
+    {
+      "kind": "address",
+      "value": "0x140011ad0"
+    }
+  ],
+  "links": [],
+  "carries_target_content": true
+}

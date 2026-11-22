@@ -1,0 +1,2154 @@
+{
+  "id": "ev_e04183fadc7be9b2a4da9168fcca4444fb54e9132613661e4c3a3d879702e51e",
+  "subject": {
+    "kind": "pe",
+    "sha256": "e653386e854b5588f212117bfa4e5bee7c0d52806e97bbf4f099a373e0c55e39",
+    "name": "skills-browser.exe"
+  },
+  "operation": "native_strings_browse",
+  "params": {
+    "address": null,
+    "limit": 300,
+    "offset": 300,
+    "section": null
+  },
+  "result": {
+    "strings": [
+      {
+        "address": "0x14001f020",
+        "encoding": "utf16le",
+        "file_offset": 120864,
+        "references": 1,
+        "section": ".rdata",
+        "text": "The managed DLL bound to this executable could not be retrieved from the executable image."
+      },
+      {
+        "address": "0x14001f0e0",
+        "encoding": "utf16le",
+        "file_offset": 121056,
+        "references": 1,
+        "section": ".rdata",
+        "text": "This executable is not bound to a managed DLL to execute. The binding value is: '%s'"
+      },
+      {
+        "address": "0x14001f190",
+        "encoding": "utf16le",
+        "file_offset": 121232,
+        "references": 1,
+        "section": ".rdata",
+        "text": "The managed DLL bound to this executable is: '%s'"
+      },
+      {
+        "address": "0x14001f200",
+        "encoding": "utf16le",
+        "file_offset": 121344,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Failed to resolve full path of the current executable [%s]"
+      },
+      {
+        "address": "0x14001f280",
+        "encoding": "utf16le",
+        "file_offset": 121472,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Detected Single-File app bundle"
+      },
+      {
+        "address": "0x14001f2c0",
+        "encoding": "utf16le",
+        "file_offset": 121536,
+        "references": 1,
+        "section": ".rdata",
+        "text": "The application to execute does not exist: '%s'."
+      },
+      {
+        "address": "0x14001f328",
+        "encoding": "utf16le",
+        "file_offset": 121640,
+        "references": 1,
+        "section": ".rdata",
+        "text": "not found"
+      },
+      {
+        "address": "0x14001f340",
+        "encoding": "utf16le",
+        "file_offset": 121664,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Failed to resolve %s [%s]. Error code: 0x%x"
+      },
+      {
+        "address": "0x14001f3a0",
+        "encoding": "utf16le",
+        "file_offset": 121760,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Invoking fx resolver [%s] hostfxr_main_bundle_startupinfo"
+      },
+      {
+        "address": "0x14001f418",
+        "encoding": "utf16le",
+        "file_offset": 121880,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Host path: [%s]"
+      },
+      {
+        "address": "0x14001f438",
+        "encoding": "utf16le",
+        "file_offset": 121912,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Dotnet path: [%s]"
+      },
+      {
+        "address": "0x14001f460",
+        "encoding": "utf16le",
+        "file_offset": 121952,
+        "references": 2,
+        "section": ".rdata",
+        "text": "App path: [%s]"
+      },
+      {
+        "address": "0x14001f480",
+        "encoding": "utf16le",
+        "file_offset": 121984,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Bundle Header Offset: [%lld]"
+      },
+      {
+        "address": "0x14001f4c0",
+        "encoding": "utf16le",
+        "file_offset": 122048,
+        "references": 1,
+        "section": ".rdata",
+        "text": "The required library %s does not support single-file apps."
+      },
+      {
+        "address": "0x14001f540",
+        "encoding": "utf16le",
+        "file_offset": 122176,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Invoking fx resolver [%s] hostfxr_main_startupinfo"
+      },
+      {
+        "address": "0x14001f5b0",
+        "encoding": "utf16le",
+        "file_offset": 122288,
+        "references": 1,
+        "section": ".rdata",
+        "text": "The required library %s does not support relative app dll paths."
+      },
+      {
+        "address": "0x14001f638",
+        "encoding": "utf16le",
+        "file_offset": 122424,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Invoking fx resolver [%s] v1"
+      },
+      {
+        "address": "0x14001f680",
+        "encoding": "utf16le",
+        "file_offset": 122496,
+        "references": 1,
+        "section": ".rdata",
+        "text": "The required library %s does not contain the expected entry point."
+      },
+      {
+        "address": "0x14001f708",
+        "encoding": "utf16le",
+        "file_offset": 122632,
+        "references": 1,
+        "section": ".rdata",
+        "text": "apphost"
+      },
+      {
+        "address": "0x14001f720",
+        "encoding": "utf16le",
+        "file_offset": 122656,
+        "references": 1,
+        "section": ".rdata",
+        "text": "--- Invoked %s [version: %s] main = {"
+      },
+      {
+        "address": "0x14001f778",
+        "encoding": "ascii",
+        "file_offset": 122744,
+        "references": 1,
+        "section": ".rdata",
+        "text": "74e592c2fa383d4a3960714caef0c4f2"
+      },
+      {
+        "address": "0x14001f7a0",
+        "encoding": "ascii",
+        "file_offset": 122784,
+        "references": 1,
+        "section": ".rdata",
+        "text": "c3ab8ff13720e8ad9047dd39466b3c89"
+      },
+      {
+        "address": "0x14002079c",
+        "encoding": "ascii",
+        "file_offset": 126876,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RSDS"
+      },
+      {
+        "address": "0x1400207b4",
+        "encoding": "ascii",
+        "file_offset": 126900,
+        "references": 0,
+        "section": ".rdata",
+        "text": "D:\\a\\_work\\1\\s\\artifacts\\obj\\win-x64.Release\\corehost\\apphost\\standalone\\apphost.pdb"
+      },
+      {
+        "address": "0x140020820",
+        "encoding": "ascii",
+        "file_offset": 127008,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GCTL"
+      },
+      {
+        "address": "0x14002082c",
+        "encoding": "ascii",
+        "file_offset": 127020,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".text$di"
+      },
+      {
+        "address": "0x140020840",
+        "encoding": "ascii",
+        "file_offset": 127040,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".text$mn"
+      },
+      {
+        "address": "0x140020854",
+        "encoding": "ascii",
+        "file_offset": 127060,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".text$mn$00"
+      },
+      {
+        "address": "0x140020868",
+        "encoding": "ascii",
+        "file_offset": 127080,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".text$mn$21"
+      },
+      {
+        "address": "0x14002087c",
+        "encoding": "ascii",
+        "file_offset": 127100,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".text$x"
+      },
+      {
+        "address": "0x14002088c",
+        "encoding": "ascii",
+        "file_offset": 127116,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".text$yd"
+      },
+      {
+        "address": "0x1400208a0",
+        "encoding": "ascii",
+        "file_offset": 127136,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".idata$5"
+      },
+      {
+        "address": "0x1400208b4",
+        "encoding": "ascii",
+        "file_offset": 127156,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".00cfg"
+      },
+      {
+        "address": "0x1400208c4",
+        "encoding": "ascii",
+        "file_offset": 127172,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XCA"
+      },
+      {
+        "address": "0x1400208d8",
+        "encoding": "ascii",
+        "file_offset": 127192,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XCAA"
+      },
+      {
+        "address": "0x1400208ec",
+        "encoding": "ascii",
+        "file_offset": 127212,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XCC"
+      },
+      {
+        "address": "0x140020900",
+        "encoding": "ascii",
+        "file_offset": 127232,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XCL"
+      },
+      {
+        "address": "0x140020914",
+        "encoding": "ascii",
+        "file_offset": 127252,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XCU"
+      },
+      {
+        "address": "0x140020928",
+        "encoding": "ascii",
+        "file_offset": 127272,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XCZ"
+      },
+      {
+        "address": "0x14002093c",
+        "encoding": "ascii",
+        "file_offset": 127292,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XIA"
+      },
+      {
+        "address": "0x140020950",
+        "encoding": "ascii",
+        "file_offset": 127312,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XIAA"
+      },
+      {
+        "address": "0x140020964",
+        "encoding": "ascii",
+        "file_offset": 127332,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XIAC"
+      },
+      {
+        "address": "0x140020978",
+        "encoding": "ascii",
+        "file_offset": 127352,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XIC"
+      },
+      {
+        "address": "0x14002098c",
+        "encoding": "ascii",
+        "file_offset": 127372,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XIZ"
+      },
+      {
+        "address": "0x1400209a0",
+        "encoding": "ascii",
+        "file_offset": 127392,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XLA"
+      },
+      {
+        "address": "0x1400209b4",
+        "encoding": "ascii",
+        "file_offset": 127412,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XLZ"
+      },
+      {
+        "address": "0x1400209c8",
+        "encoding": "ascii",
+        "file_offset": 127432,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XPA"
+      },
+      {
+        "address": "0x1400209dc",
+        "encoding": "ascii",
+        "file_offset": 127452,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XPZ"
+      },
+      {
+        "address": "0x1400209f0",
+        "encoding": "ascii",
+        "file_offset": 127472,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XTA"
+      },
+      {
+        "address": "0x140020a04",
+        "encoding": "ascii",
+        "file_offset": 127492,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".CRT$XTZ"
+      },
+      {
+        "address": "0x140020a18",
+        "encoding": "ascii",
+        "file_offset": 127512,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".gehcont"
+      },
+      {
+        "address": "0x140020a2c",
+        "encoding": "ascii",
+        "file_offset": 127532,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".gfids"
+      },
+      {
+        "address": "0x140020a3c",
+        "encoding": "ascii",
+        "file_offset": 127548,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rdata"
+      },
+      {
+        "address": "0x140020a4c",
+        "encoding": "ascii",
+        "file_offset": 127564,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rdata$00"
+      },
+      {
+        "address": "0x140020a60",
+        "encoding": "ascii",
+        "file_offset": 127584,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rdata$T"
+      },
+      {
+        "address": "0x140020a74",
+        "encoding": "ascii",
+        "file_offset": 127604,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rdata$r"
+      },
+      {
+        "address": "0x140020a88",
+        "encoding": "ascii",
+        "file_offset": 127624,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rdata$voltmd"
+      },
+      {
+        "address": "0x140020aa0",
+        "encoding": "ascii",
+        "file_offset": 127648,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rdata$zzzdbg"
+      },
+      {
+        "address": "0x140020ab8",
+        "encoding": "ascii",
+        "file_offset": 127672,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rtc$IAA"
+      },
+      {
+        "address": "0x140020acc",
+        "encoding": "ascii",
+        "file_offset": 127692,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rtc$IZZ"
+      },
+      {
+        "address": "0x140020ae0",
+        "encoding": "ascii",
+        "file_offset": 127712,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rtc$TAA"
+      },
+      {
+        "address": "0x140020af4",
+        "encoding": "ascii",
+        "file_offset": 127732,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".rtc$TZZ"
+      },
+      {
+        "address": "0x140020b08",
+        "encoding": "ascii",
+        "file_offset": 127752,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".tls"
+      },
+      {
+        "address": "0x140020b18",
+        "encoding": "ascii",
+        "file_offset": 127768,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".tls$"
+      },
+      {
+        "address": "0x140020b28",
+        "encoding": "ascii",
+        "file_offset": 127784,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".tls$ZZZ"
+      },
+      {
+        "address": "0x140020b3c",
+        "encoding": "ascii",
+        "file_offset": 127804,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".xdata"
+      },
+      {
+        "address": "0x140020b4c",
+        "encoding": "ascii",
+        "file_offset": 127820,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".xdata$x"
+      },
+      {
+        "address": "0x140020b60",
+        "encoding": "ascii",
+        "file_offset": 127840,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".idata$2"
+      },
+      {
+        "address": "0x140020b74",
+        "encoding": "ascii",
+        "file_offset": 127860,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".idata$3"
+      },
+      {
+        "address": "0x140020b88",
+        "encoding": "ascii",
+        "file_offset": 127880,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".idata$4"
+      },
+      {
+        "address": "0x140020b9c",
+        "encoding": "ascii",
+        "file_offset": 127900,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".idata$6"
+      },
+      {
+        "address": "0x140020bb0",
+        "encoding": "ascii",
+        "file_offset": 127920,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".data"
+      },
+      {
+        "address": "0x140020bc0",
+        "encoding": "ascii",
+        "file_offset": 127936,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".data$r"
+      },
+      {
+        "address": "0x140020bd0",
+        "encoding": "ascii",
+        "file_offset": 127952,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".data$rs"
+      },
+      {
+        "address": "0x140020be4",
+        "encoding": "ascii",
+        "file_offset": 127972,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".bss"
+      },
+      {
+        "address": "0x140020bf4",
+        "encoding": "ascii",
+        "file_offset": 127988,
+        "references": 0,
+        "section": ".rdata",
+        "text": ".pdata"
+      },
+      {
+        "address": "0x1400213c5",
+        "encoding": "ascii",
+        "file_offset": 129989,
+        "references": 0,
+        "section": ".rdata",
+        "text": "\n\n k"
+      },
+      {
+        "address": "0x1400213cb",
+        "encoding": "ascii",
+        "file_offset": 129995,
+        "references": 0,
+        "section": ".rdata",
+        "text": "@:pg"
+      },
+      {
+        "address": "0x1400213d1",
+        "encoding": "ascii",
+        "file_offset": 130001,
+        "references": 0,
+        "section": ".rdata",
+        "text": "@08~"
+      },
+      {
+        "address": "0x1400217a5",
+        "encoding": "ascii",
+        "file_offset": 130981,
+        "references": 0,
+        "section": ".rdata",
+        "text": "\n\n k"
+      },
+      {
+        "address": "0x1400217ab",
+        "encoding": "ascii",
+        "file_offset": 130987,
+        "references": 0,
+        "section": ".rdata",
+        "text": "@:@t"
+      },
+      {
+        "address": "0x1400217b1",
+        "encoding": "ascii",
+        "file_offset": 130993,
+        "references": 0,
+        "section": ".rdata",
+        "text": "@08~"
+      },
+      {
+        "address": "0x1400224f5",
+        "encoding": "ascii",
+        "file_offset": 134389,
+        "references": 0,
+        "section": ".rdata",
+        "text": ",\n1\t"
+      },
+      {
+        "address": "0x14002337a",
+        "encoding": "ascii",
+        "file_offset": 138106,
+        "references": 0,
+        "section": ".rdata",
+        "text": "CreateActCtxW"
+      },
+      {
+        "address": "0x14002338a",
+        "encoding": "ascii",
+        "file_offset": 138122,
+        "references": 0,
+        "section": ".rdata",
+        "text": "ActivateActCtx"
+      },
+      {
+        "address": "0x14002339c",
+        "encoding": "ascii",
+        "file_offset": 138140,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetLastError"
+      },
+      {
+        "address": "0x1400233ac",
+        "encoding": "ascii",
+        "file_offset": 138156,
+        "references": 0,
+        "section": ".rdata",
+        "text": "FindResourceW"
+      },
+      {
+        "address": "0x1400233bc",
+        "encoding": "ascii",
+        "file_offset": 138172,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetWindowsDirectoryW"
+      },
+      {
+        "address": "0x1400233d4",
+        "encoding": "ascii",
+        "file_offset": 138196,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetProcAddress"
+      },
+      {
+        "address": "0x1400233e6",
+        "encoding": "ascii",
+        "file_offset": 138214,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetModuleHandleW"
+      },
+      {
+        "address": "0x1400233fa",
+        "encoding": "ascii",
+        "file_offset": 138234,
+        "references": 0,
+        "section": ".rdata",
+        "text": "FreeLibrary"
+      },
+      {
+        "address": "0x140023408",
+        "encoding": "ascii",
+        "file_offset": 138248,
+        "references": 0,
+        "section": ".rdata",
+        "text": "LoadLibraryExW"
+      },
+      {
+        "address": "0x14002341a",
+        "encoding": "ascii",
+        "file_offset": 138266,
+        "references": 0,
+        "section": ".rdata",
+        "text": "OutputDebugStringW"
+      },
+      {
+        "address": "0x140023430",
+        "encoding": "ascii",
+        "file_offset": 138288,
+        "references": 0,
+        "section": ".rdata",
+        "text": "FindFirstFileExW"
+      },
+      {
+        "address": "0x140023444",
+        "encoding": "ascii",
+        "file_offset": 138308,
+        "references": 0,
+        "section": ".rdata",
+        "text": "EnterCriticalSection"
+      },
+      {
+        "address": "0x14002345c",
+        "encoding": "ascii",
+        "file_offset": 138332,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetFullPathNameW"
+      },
+      {
+        "address": "0x140023470",
+        "encoding": "ascii",
+        "file_offset": 138352,
+        "references": 0,
+        "section": ".rdata",
+        "text": "FindNextFileW"
+      },
+      {
+        "address": "0x140023480",
+        "encoding": "ascii",
+        "file_offset": 138368,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetCurrentProcess"
+      },
+      {
+        "address": "0x140023494",
+        "encoding": "ascii",
+        "file_offset": 138388,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetModuleHandleExW"
+      },
+      {
+        "address": "0x1400234aa",
+        "encoding": "ascii",
+        "file_offset": 138410,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetModuleFileNameW"
+      },
+      {
+        "address": "0x1400234c0",
+        "encoding": "ascii",
+        "file_offset": 138432,
+        "references": 0,
+        "section": ".rdata",
+        "text": "LeaveCriticalSection"
+      },
+      {
+        "address": "0x1400234d8",
+        "encoding": "ascii",
+        "file_offset": 138456,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetEnvironmentVariableW"
+      },
+      {
+        "address": "0x1400234f2",
+        "encoding": "ascii",
+        "file_offset": 138482,
+        "references": 0,
+        "section": ".rdata",
+        "text": "FindClose"
+      },
+      {
+        "address": "0x1400234fe",
+        "encoding": "ascii",
+        "file_offset": 138494,
+        "references": 0,
+        "section": ".rdata",
+        "text": "MultiByteToWideChar"
+      },
+      {
+        "address": "0x140023514",
+        "encoding": "ascii",
+        "file_offset": 138516,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetFileAttributesExW"
+      },
+      {
+        "address": "0x14002352c",
+        "encoding": "ascii",
+        "file_offset": 138540,
+        "references": 0,
+        "section": ".rdata",
+        "text": "LoadLibraryA"
+      },
+      {
+        "address": "0x14002353c",
+        "encoding": "ascii",
+        "file_offset": 138556,
+        "references": 0,
+        "section": ".rdata",
+        "text": "DeleteCriticalSection"
+      },
+      {
+        "address": "0x140023554",
+        "encoding": "ascii",
+        "file_offset": 138580,
+        "references": 0,
+        "section": ".rdata",
+        "text": "WideCharToMultiByte"
+      },
+      {
+        "address": "0x14002356a",
+        "encoding": "ascii",
+        "file_offset": 138602,
+        "references": 0,
+        "section": ".rdata",
+        "text": "IsWow64Process"
+      },
+      {
+        "address": "0x14002357a",
+        "encoding": "ascii",
+        "file_offset": 138618,
+        "references": 0,
+        "section": ".rdata",
+        "text": "KERNEL32.dll"
+      },
+      {
+        "address": "0x14002358a",
+        "encoding": "ascii",
+        "file_offset": 138634,
+        "references": 0,
+        "section": ".rdata",
+        "text": "MessageBoxW"
+      },
+      {
+        "address": "0x140023596",
+        "encoding": "ascii",
+        "file_offset": 138646,
+        "references": 0,
+        "section": ".rdata",
+        "text": "USER32.dll"
+      },
+      {
+        "address": "0x1400235a4",
+        "encoding": "ascii",
+        "file_offset": 138660,
+        "references": 0,
+        "section": ".rdata",
+        "text": "ShellExecuteW"
+      },
+      {
+        "address": "0x1400235b2",
+        "encoding": "ascii",
+        "file_offset": 138674,
+        "references": 0,
+        "section": ".rdata",
+        "text": "SHELL32.dll"
+      },
+      {
+        "address": "0x1400235c0",
+        "encoding": "ascii",
+        "file_offset": 138688,
+        "references": 0,
+        "section": ".rdata",
+        "text": "ReportEventW"
+      },
+      {
+        "address": "0x1400235d0",
+        "encoding": "ascii",
+        "file_offset": 138704,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RegisterEventSourceW"
+      },
+      {
+        "address": "0x1400235e8",
+        "encoding": "ascii",
+        "file_offset": 138728,
+        "references": 0,
+        "section": ".rdata",
+        "text": "DeregisterEventSource"
+      },
+      {
+        "address": "0x140023600",
+        "encoding": "ascii",
+        "file_offset": 138752,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RegGetValueW"
+      },
+      {
+        "address": "0x140023610",
+        "encoding": "ascii",
+        "file_offset": 138768,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RegOpenKeyExW"
+      },
+      {
+        "address": "0x140023620",
+        "encoding": "ascii",
+        "file_offset": 138784,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RegCloseKey"
+      },
+      {
+        "address": "0x14002362c",
+        "encoding": "ascii",
+        "file_offset": 138796,
+        "references": 0,
+        "section": ".rdata",
+        "text": "ADVAPI32.dll"
+      },
+      {
+        "address": "0x14002363c",
+        "encoding": "ascii",
+        "file_offset": 138812,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_invoke_watson"
+      },
+      {
+        "address": "0x14002364e",
+        "encoding": "ascii",
+        "file_offset": 138830,
+        "references": 0,
+        "section": ".rdata",
+        "text": "__acrt_iob_func"
+      },
+      {
+        "address": "0x140023660",
+        "encoding": "ascii",
+        "file_offset": 138848,
+        "references": 0,
+        "section": ".rdata",
+        "text": "fputwc"
+      },
+      {
+        "address": "0x14002366a",
+        "encoding": "ascii",
+        "file_offset": 138858,
+        "references": 0,
+        "section": ".rdata",
+        "text": "fputws"
+      },
+      {
+        "address": "0x140023674",
+        "encoding": "ascii",
+        "file_offset": 138868,
+        "references": 0,
+        "section": ".rdata",
+        "text": "free"
+      },
+      {
+        "address": "0x14002367c",
+        "encoding": "ascii",
+        "file_offset": 138876,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_wfsopen"
+      },
+      {
+        "address": "0x140023688",
+        "encoding": "ascii",
+        "file_offset": 138888,
+        "references": 0,
+        "section": ".rdata",
+        "text": "fflush"
+      },
+      {
+        "address": "0x140023692",
+        "encoding": "ascii",
+        "file_offset": 138898,
+        "references": 0,
+        "section": ".rdata",
+        "text": "__stdio_common_vfwprintf"
+      },
+      {
+        "address": "0x1400236ae",
+        "encoding": "ascii",
+        "file_offset": 138926,
+        "references": 0,
+        "section": ".rdata",
+        "text": "__stdio_common_vsnwprintf_s"
+      },
+      {
+        "address": "0x1400236cc",
+        "encoding": "ascii",
+        "file_offset": 138956,
+        "references": 0,
+        "section": ".rdata",
+        "text": "__stdio_common_vswprintf"
+      },
+      {
+        "address": "0x1400236e8",
+        "encoding": "ascii",
+        "file_offset": 138984,
+        "references": 0,
+        "section": ".rdata",
+        "text": "setvbuf"
+      },
+      {
+        "address": "0x1400236f2",
+        "encoding": "ascii",
+        "file_offset": 138994,
+        "references": 0,
+        "section": ".rdata",
+        "text": "toupper"
+      },
+      {
+        "address": "0x1400236fc",
+        "encoding": "ascii",
+        "file_offset": 139004,
+        "references": 0,
+        "section": ".rdata",
+        "text": "wcstoul"
+      },
+      {
+        "address": "0x140023706",
+        "encoding": "ascii",
+        "file_offset": 139014,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_errno"
+      },
+      {
+        "address": "0x140023710",
+        "encoding": "ascii",
+        "file_offset": 139024,
+        "references": 0,
+        "section": ".rdata",
+        "text": "wcsncmp"
+      },
+      {
+        "address": "0x14002371a",
+        "encoding": "ascii",
+        "file_offset": 139034,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_gmtime64_s"
+      },
+      {
+        "address": "0x140023728",
+        "encoding": "ascii",
+        "file_offset": 139048,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_wtoi"
+      },
+      {
+        "address": "0x140023730",
+        "encoding": "ascii",
+        "file_offset": 139056,
+        "references": 0,
+        "section": ".rdata",
+        "text": "wcsftime"
+      },
+      {
+        "address": "0x14002373c",
+        "encoding": "ascii",
+        "file_offset": 139068,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_time64"
+      },
+      {
+        "address": "0x140023744",
+        "encoding": "ascii",
+        "file_offset": 139076,
+        "references": 0,
+        "section": ".rdata",
+        "text": "api-ms-win-crt-runtime-l1-1-0.dll"
+      },
+      {
+        "address": "0x140023766",
+        "encoding": "ascii",
+        "file_offset": 139110,
+        "references": 0,
+        "section": ".rdata",
+        "text": "api-ms-win-crt-stdio-l1-1-0.dll"
+      },
+      {
+        "address": "0x140023786",
+        "encoding": "ascii",
+        "file_offset": 139142,
+        "references": 0,
+        "section": ".rdata",
+        "text": "api-ms-win-crt-heap-l1-1-0.dll"
+      },
+      {
+        "address": "0x1400237a6",
+        "encoding": "ascii",
+        "file_offset": 139174,
+        "references": 0,
+        "section": ".rdata",
+        "text": "api-ms-win-crt-string-l1-1-0.dll"
+      },
+      {
+        "address": "0x1400237c8",
+        "encoding": "ascii",
+        "file_offset": 139208,
+        "references": 0,
+        "section": ".rdata",
+        "text": "api-ms-win-crt-convert-l1-1-0.dll"
+      },
+      {
+        "address": "0x1400237ea",
+        "encoding": "ascii",
+        "file_offset": 139242,
+        "references": 0,
+        "section": ".rdata",
+        "text": "api-ms-win-crt-time-l1-1-0.dll"
+      },
+      {
+        "address": "0x14002380c",
+        "encoding": "ascii",
+        "file_offset": 139276,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetStringTypeW"
+      },
+      {
+        "address": "0x14002381e",
+        "encoding": "ascii",
+        "file_offset": 139294,
+        "references": 0,
+        "section": ".rdata",
+        "text": "SwitchToThread"
+      },
+      {
+        "address": "0x140023830",
+        "encoding": "ascii",
+        "file_offset": 139312,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetCurrentThreadId"
+      },
+      {
+        "address": "0x140023846",
+        "encoding": "ascii",
+        "file_offset": 139334,
+        "references": 0,
+        "section": ".rdata",
+        "text": "InitializeCriticalSectionEx"
+      },
+      {
+        "address": "0x140023864",
+        "encoding": "ascii",
+        "file_offset": 139364,
+        "references": 0,
+        "section": ".rdata",
+        "text": "EncodePointer"
+      },
+      {
+        "address": "0x140023874",
+        "encoding": "ascii",
+        "file_offset": 139380,
+        "references": 0,
+        "section": ".rdata",
+        "text": "DecodePointer"
+      },
+      {
+        "address": "0x140023884",
+        "encoding": "ascii",
+        "file_offset": 139396,
+        "references": 0,
+        "section": ".rdata",
+        "text": "LCMapStringEx"
+      },
+      {
+        "address": "0x140023894",
+        "encoding": "ascii",
+        "file_offset": 139412,
+        "references": 0,
+        "section": ".rdata",
+        "text": "QueryPerformanceCounter"
+      },
+      {
+        "address": "0x1400238ae",
+        "encoding": "ascii",
+        "file_offset": 139438,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetSystemTimeAsFileTime"
+      },
+      {
+        "address": "0x1400238c8",
+        "encoding": "ascii",
+        "file_offset": 139464,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RtlCaptureContext"
+      },
+      {
+        "address": "0x1400238dc",
+        "encoding": "ascii",
+        "file_offset": 139484,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RtlLookupFunctionEntry"
+      },
+      {
+        "address": "0x1400238f6",
+        "encoding": "ascii",
+        "file_offset": 139510,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RtlVirtualUnwind"
+      },
+      {
+        "address": "0x14002390a",
+        "encoding": "ascii",
+        "file_offset": 139530,
+        "references": 0,
+        "section": ".rdata",
+        "text": "UnhandledExceptionFilter"
+      },
+      {
+        "address": "0x140023926",
+        "encoding": "ascii",
+        "file_offset": 139558,
+        "references": 0,
+        "section": ".rdata",
+        "text": "SetUnhandledExceptionFilter"
+      },
+      {
+        "address": "0x140023944",
+        "encoding": "ascii",
+        "file_offset": 139588,
+        "references": 0,
+        "section": ".rdata",
+        "text": "TerminateProcess"
+      },
+      {
+        "address": "0x140023958",
+        "encoding": "ascii",
+        "file_offset": 139608,
+        "references": 0,
+        "section": ".rdata",
+        "text": "IsProcessorFeaturePresent"
+      },
+      {
+        "address": "0x140023974",
+        "encoding": "ascii",
+        "file_offset": 139636,
+        "references": 0,
+        "section": ".rdata",
+        "text": "IsDebuggerPresent"
+      },
+      {
+        "address": "0x140023988",
+        "encoding": "ascii",
+        "file_offset": 139656,
+        "references": 0,
+        "section": ".rdata",
+        "text": "GetCurrentProcessId"
+      },
+      {
+        "address": "0x14002399e",
+        "encoding": "ascii",
+        "file_offset": 139678,
+        "references": 0,
+        "section": ".rdata",
+        "text": "InitializeSListHead"
+      },
+      {
+        "address": "0x1400239b4",
+        "encoding": "ascii",
+        "file_offset": 139700,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RtlUnwindEx"
+      },
+      {
+        "address": "0x1400239c2",
+        "encoding": "ascii",
+        "file_offset": 139714,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RtlPcToFileHeader"
+      },
+      {
+        "address": "0x1400239d6",
+        "encoding": "ascii",
+        "file_offset": 139734,
+        "references": 0,
+        "section": ".rdata",
+        "text": "RaiseException"
+      },
+      {
+        "address": "0x1400239e8",
+        "encoding": "ascii",
+        "file_offset": 139752,
+        "references": 0,
+        "section": ".rdata",
+        "text": "SetLastError"
+      },
+      {
+        "address": "0x1400239f8",
+        "encoding": "ascii",
+        "file_offset": 139768,
+        "references": 0,
+        "section": ".rdata",
+        "text": "InitializeCriticalSectionAndSpinCount"
+      },
+      {
+        "address": "0x140023a20",
+        "encoding": "ascii",
+        "file_offset": 139808,
+        "references": 0,
+        "section": ".rdata",
+        "text": "TlsAlloc"
+      },
+      {
+        "address": "0x140023a2c",
+        "encoding": "ascii",
+        "file_offset": 139820,
+        "references": 0,
+        "section": ".rdata",
+        "text": "TlsGetValue"
+      },
+      {
+        "address": "0x140023a3a",
+        "encoding": "ascii",
+        "file_offset": 139834,
+        "references": 0,
+        "section": ".rdata",
+        "text": "TlsSetValue"
+      },
+      {
+        "address": "0x140023a48",
+        "encoding": "ascii",
+        "file_offset": 139848,
+        "references": 0,
+        "section": ".rdata",
+        "text": "TlsFree"
+      },
+      {
+        "address": "0x140023a52",
+        "encoding": "ascii",
+        "file_offset": 139858,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_lock_locales"
+      },
+      {
+        "address": "0x140023a62",
+        "encoding": "ascii",
+        "file_offset": 139874,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_unlock_locales"
+      },
+      {
+        "address": "0x140023a74",
+        "encoding": "ascii",
+        "file_offset": 139892,
+        "references": 0,
+        "section": ".rdata",
+        "text": "malloc"
+      },
+      {
+        "address": "0x140023a7e",
+        "encoding": "ascii",
+        "file_offset": 139902,
+        "references": 0,
+        "section": ".rdata",
+        "text": "setlocale"
+      },
+      {
+        "address": "0x140023a8a",
+        "encoding": "ascii",
+        "file_offset": 139914,
+        "references": 0,
+        "section": ".rdata",
+        "text": "__pctype_func"
+      },
+      {
+        "address": "0x140023a9a",
+        "encoding": "ascii",
+        "file_offset": 139930,
+        "references": 0,
+        "section": ".rdata",
+        "text": "___lc_locale_name_func"
+      },
+      {
+        "address": "0x140023ab4",
+        "encoding": "ascii",
+        "file_offset": 139956,
+        "references": 0,
+        "section": ".rdata",
+        "text": "___lc_codepage_func"
+      },
+      {
+        "address": "0x140023aca",
+        "encoding": "ascii",
+        "file_offset": 139978,
+        "references": 0,
+        "section": ".rdata",
+        "text": "calloc"
+      },
+      {
+        "address": "0x140023ad4",
+        "encoding": "ascii",
+        "file_offset": 139988,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_wcsdup"
+      },
+      {
+        "address": "0x140023ade",
+        "encoding": "ascii",
+        "file_offset": 139998,
+        "references": 0,
+        "section": ".rdata",
+        "text": "___mb_cur_max_func"
+      },
+      {
+        "address": "0x140023af4",
+        "encoding": "ascii",
+        "file_offset": 140020,
+        "references": 0,
+        "section": ".rdata",
+        "text": "strcmp"
+      },
+      {
+        "address": "0x140023afe",
+        "encoding": "ascii",
+        "file_offset": 140030,
+        "references": 0,
+        "section": ".rdata",
+        "text": "strlen"
+      },
+      {
+        "address": "0x140023b08",
+        "encoding": "ascii",
+        "file_offset": 140040,
+        "references": 0,
+        "section": ".rdata",
+        "text": "abort"
+      },
+      {
+        "address": "0x140023b10",
+        "encoding": "ascii",
+        "file_offset": 140048,
+        "references": 0,
+        "section": ".rdata",
+        "text": "wcsnlen"
+      },
+      {
+        "address": "0x140023b1a",
+        "encoding": "ascii",
+        "file_offset": 140058,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_callnewh"
+      },
+      {
+        "address": "0x140023b26",
+        "encoding": "ascii",
+        "file_offset": 140070,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_initialize_onexit_table"
+      },
+      {
+        "address": "0x140023b42",
+        "encoding": "ascii",
+        "file_offset": 140098,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_register_onexit_function"
+      },
+      {
+        "address": "0x140023b5e",
+        "encoding": "ascii",
+        "file_offset": 140126,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_crt_atexit"
+      },
+      {
+        "address": "0x140023b6c",
+        "encoding": "ascii",
+        "file_offset": 140140,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_cexit"
+      },
+      {
+        "address": "0x140023b76",
+        "encoding": "ascii",
+        "file_offset": 140150,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_seh_filter_exe"
+      },
+      {
+        "address": "0x140023b88",
+        "encoding": "ascii",
+        "file_offset": 140168,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_set_app_type"
+      },
+      {
+        "address": "0x140023b98",
+        "encoding": "ascii",
+        "file_offset": 140184,
+        "references": 0,
+        "section": ".rdata",
+        "text": "__setusermatherr"
+      },
+      {
+        "address": "0x140023bac",
+        "encoding": "ascii",
+        "file_offset": 140204,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_configure_wide_argv"
+      },
+      {
+        "address": "0x140023bc4",
+        "encoding": "ascii",
+        "file_offset": 140228,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_initialize_wide_environment"
+      },
+      {
+        "address": "0x140023be4",
+        "encoding": "ascii",
+        "file_offset": 140260,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_get_initial_wide_environment"
+      },
+      {
+        "address": "0x140023c04",
+        "encoding": "ascii",
+        "file_offset": 140292,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_initterm"
+      },
+      {
+        "address": "0x140023c10",
+        "encoding": "ascii",
+        "file_offset": 140304,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_initterm_e"
+      },
+      {
+        "address": "0x140023c1e",
+        "encoding": "ascii",
+        "file_offset": 140318,
+        "references": 0,
+        "section": ".rdata",
+        "text": "exit"
+      },
+      {
+        "address": "0x140023c26",
+        "encoding": "ascii",
+        "file_offset": 140326,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_exit"
+      },
+      {
+        "address": "0x140023c2e",
+        "encoding": "ascii",
+        "file_offset": 140334,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_set_fmode"
+      },
+      {
+        "address": "0x140023c3c",
+        "encoding": "ascii",
+        "file_offset": 140348,
+        "references": 0,
+        "section": ".rdata",
+        "text": "__p___argc"
+      },
+      {
+        "address": "0x140023c4a",
+        "encoding": "ascii",
+        "file_offset": 140362,
+        "references": 0,
+        "section": ".rdata",
+        "text": "__p___wargv"
+      },
+      {
+        "address": "0x140023c58",
+        "encoding": "ascii",
+        "file_offset": 140376,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_c_exit"
+      },
+      {
+        "address": "0x140023c62",
+        "encoding": "ascii",
+        "file_offset": 140386,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_register_thread_local_exe_atexit_callback"
+      },
+      {
+        "address": "0x140023c90",
+        "encoding": "ascii",
+        "file_offset": 140432,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_configthreadlocale"
+      },
+      {
+        "address": "0x140023ca6",
+        "encoding": "ascii",
+        "file_offset": 140454,
+        "references": 0,
+        "section": ".rdata",
+        "text": "_set_new_mode"
+      },
+      {
+        "address": "0x140023cb6",
+        "encoding": "ascii",
+        "file_offset": 140470,
+        "references": 0,
+        "section": ".rdata",
+        "text": "__p__commode"
+      },
+      {
+        "address": "0x140023cc6",
+        "encoding": "ascii",
+        "file_offset": 140486,
+        "references": 0,
+        "section": ".rdata",
+        "text": "terminate"
+      },
+      {
+        "address": "0x140023cd2",
+        "encoding": "ascii",
+        "file_offset": 140498,
+        "references": 0,
+        "section": ".rdata",
+        "text": "strcpy_s"
+      },
+      {
+        "address": "0x140023cdc",
+        "encoding": "ascii",
+        "file_offset": 140508,
+        "references": 0,
+        "section": ".rdata",
+        "text": "api-ms-win-crt-locale-l1-1-0.dll"
+      },
+      {
+        "address": "0x140023cfe",
+        "encoding": "ascii",
+        "file_offset": 140542,
+        "references": 0,
+        "section": ".rdata",
+        "text": "api-ms-win-crt-math-l1-1-0.dll"
+      },
+      {
+        "address": "0x140024124",
+        "encoding": "ascii",
+        "file_offset": 141092,
+        "references": 0,
+        "section": ".data",
+        "text": "ja 8r{"
+      },
+      {
+        "address": "0x140024150",
+        "encoding": "ascii",
+        "file_offset": 141136,
+        "references": 3,
+        "section": ".data",
+        "text": "d38cc827-e34f-4453-9df4-1e796e9f1d07"
+      },
+      {
+        "address": "0x140024180",
+        "encoding": "ascii",
+        "file_offset": 141184,
+        "references": 1,
+        "section": ".data",
+        "text": "skills-browser.dll"
+      },
+      {
+        "address": "0x1400245b8",
+        "encoding": "ascii",
+        "file_offset": 142264,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVinvalid_argument@std@@"
+      },
+      {
+        "address": "0x1400245e8",
+        "encoding": "ascii",
+        "file_offset": 142312,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVlogic_error@std@@"
+      },
+      {
+        "address": "0x140024610",
+        "encoding": "ascii",
+        "file_offset": 142352,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVlength_error@std@@"
+      },
+      {
+        "address": "0x140024638",
+        "encoding": "ascii",
+        "file_offset": 142392,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVout_of_range@std@@"
+      },
+      {
+        "address": "0x140024660",
+        "encoding": "ascii",
+        "file_offset": 142432,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVbad_exception@std@@"
+      },
+      {
+        "address": "0x140024688",
+        "encoding": "ascii",
+        "file_offset": 142472,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVfailure@ios_base@std@@"
+      },
+      {
+        "address": "0x1400246b8",
+        "encoding": "ascii",
+        "file_offset": 142520,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVruntime_error@std@@"
+      },
+      {
+        "address": "0x1400246e0",
+        "encoding": "ascii",
+        "file_offset": 142560,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVbad_alloc@std@@"
+      },
+      {
+        "address": "0x140024708",
+        "encoding": "ascii",
+        "file_offset": 142600,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVsystem_error@std@@"
+      },
+      {
+        "address": "0x140024730",
+        "encoding": "ascii",
+        "file_offset": 142640,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVbad_cast@std@@"
+      },
+      {
+        "address": "0x140024758",
+        "encoding": "ascii",
+        "file_offset": 142680,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AV_System_error@std@@"
+      },
+      {
+        "address": "0x140024780",
+        "encoding": "ascii",
+        "file_offset": 142720,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVexception@std@@"
+      },
+      {
+        "address": "0x1400247a8",
+        "encoding": "ascii",
+        "file_offset": 142760,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVbad_array_new_length@std@@"
+      },
+      {
+        "address": "0x1400247e0",
+        "encoding": "ascii",
+        "file_offset": 142816,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AV_Facet_base@std@@"
+      },
+      {
+        "address": "0x140024808",
+        "encoding": "ascii",
+        "file_offset": 142856,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVfacet@locale@std@@"
+      },
+      {
+        "address": "0x140024830",
+        "encoding": "ascii",
+        "file_offset": 142896,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AU_Crt_new_delete@std@@"
+      },
+      {
+        "address": "0x140024860",
+        "encoding": "ascii",
+        "file_offset": 142944,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AV_Locimp@locale@std@@"
+      },
+      {
+        "address": "0x140024890",
+        "encoding": "ascii",
+        "file_offset": 142992,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AUctype_base@std@@"
+      },
+      {
+        "address": "0x1400248b8",
+        "encoding": "ascii",
+        "file_offset": 143032,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVerror_category@std@@"
+      },
+      {
+        "address": "0x1400248e8",
+        "encoding": "ascii",
+        "file_offset": 143080,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AV_Iostream_error_category2@std@@"
+      },
+      {
+        "address": "0x140024920",
+        "encoding": "ascii",
+        "file_offset": 143136,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AV?$ctype@_W@std@@"
+      },
+      {
+        "address": "0x140024948",
+        "encoding": "ascii",
+        "file_offset": 143176,
+        "references": 0,
+        "section": ".data",
+        "text": ".?AVtype_info@@"
+      },
+      {
+        "address": "0x14002802a",
+        "encoding": "utf8",
+        "file_offset": 149034,
+        "references": 0,
+        "section": ".reloc",
+        "text": "ȤФؤ "
+      },
+      {
+        "address": "0x140029086",
+        "encoding": "utf16le",
+        "file_offset": 150150,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "VS_VERSION_INFO"
+      },
+      {
+        "address": "0x1400290e2",
+        "encoding": "utf16le",
+        "file_offset": 150242,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "VarFileInfo"
+      },
+      {
+        "address": "0x140029102",
+        "encoding": "utf16le",
+        "file_offset": 150274,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "Translation"
+      },
+      {
+        "address": "0x140029126",
+        "encoding": "utf16le",
+        "file_offset": 150310,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "StringFileInfo"
+      },
+      {
+        "address": "0x14002914a",
+        "encoding": "utf16le",
+        "file_offset": 150346,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "000004b0"
+      },
+      {
+        "address": "0x140029162",
+        "encoding": "utf16le",
+        "file_offset": 150370,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "CompanyName"
+      },
+      {
+        "address": "0x14002917c",
+        "encoding": "utf16le",
+        "file_offset": 150396,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "skills-browser"
+      },
+      {
+        "address": "0x1400291a2",
+        "encoding": "utf16le",
+        "file_offset": 150434,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "FileDescription"
+      },
+      {
+        "address": "0x1400291c4",
+        "encoding": "utf16le",
+        "file_offset": 150468,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "skills-browser"
+      },
+      {
+        "address": "0x1400291ea",
+        "encoding": "utf16le",
+        "file_offset": 150506,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "FileVersion"
+      },
+      {
+        "address": "0x140029204",
+        "encoding": "utf16le",
+        "file_offset": 150532,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "1.0.0.0"
+      },
+      {
+        "address": "0x14002921a",
+        "encoding": "utf16le",
+        "file_offset": 150554,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "InternalName"
+      },
+      {
+        "address": "0x140029234",
+        "encoding": "utf16le",
+        "file_offset": 150580,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "skills-browser.dll"
+      },
+      {
+        "address": "0x140029262",
+        "encoding": "utf16le",
+        "file_offset": 150626,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "LegalCopyright"
+      },
+      {
+        "address": "0x14002928a",
+        "encoding": "utf16le",
+        "file_offset": 150666,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "OriginalFilename"
+      },
+      {
+        "address": "0x1400292ac",
+        "encoding": "utf16le",
+        "file_offset": 150700,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "skills-browser.dll"
+      },
+      {
+        "address": "0x1400292da",
+        "encoding": "utf16le",
+        "file_offset": 150746,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "ProductName"
+      },
+      {
+        "address": "0x1400292f4",
+        "encoding": "utf16le",
+        "file_offset": 150772,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "skills-browser"
+      },
+      {
+        "address": "0x14002931a",
+        "encoding": "utf16le",
+        "file_offset": 150810,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "ProductVersion"
+      },
+      {
+        "address": "0x140029338",
+        "encoding": "utf16le",
+        "file_offset": 150840,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "1.0.0+490caaf1bba29a1e45ea4147c8352b0fff11bf0a"
+      },
+      {
+        "address": "0x14002939e",
+        "encoding": "utf16le",
+        "file_offset": 150942,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "Assembly Version"
+      },
+      {
+        "address": "0x1400293c0",
+        "encoding": "utf16le",
+        "file_offset": 150976,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "1.0.0.0"
+      },
+      {
+        "address": "0x1400293d0",
+        "encoding": "utf8",
+        "file_offset": 150992,
+        "references": 0,
+        "section": ".rsrc",
+        "text": "﻿<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n\r\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\r\n  <assemblyIdentity version=\"1.0.0.0\" name=\"MyApplication.app\"/>\r\n  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v2\">\r\n    <security>\r\n      <requestedPrivileges xmlns=\"urn:schemas-microsoft-com:asm.v3\">\r\n        <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"/>\r\n      </requestedPrivileges>\r\n    </security>\r\n  </trustInfo>\r\n</assembly>"
+      }
+    ],
+    "total": 564
+  },
+  "summary": "564 strings (showing 264).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "strings are read from data sections; text built at run time or stored compressed isn't listed"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 264,
+    "total": 564
+  },
+  "locations": [],
+  "links": []
+}

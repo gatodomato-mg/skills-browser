@@ -1,0 +1,2443 @@
+{
+  "id": "ev_2f00db1bd7db9a31452e401f814d30e25a8b7f2f3238820c4f8bfa52dc0973a3",
+  "subject": {
+    "kind": "pe",
+    "sha256": "e653386e854b5588f212117bfa4e5bee7c0d52806e97bbf4f099a373e0c55e39",
+    "name": "skills-browser.exe"
+  },
+  "operation": "native_strings_browse",
+  "params": {
+    "address": null,
+    "limit": 300,
+    "offset": 0,
+    "section": null
+  },
+  "result": {
+    "strings": [
+      {
+        "address": "0x140018750",
+        "encoding": "ascii",
+        "file_offset": 94032,
+        "references": 1,
+        "section": ".rdata",
+        "text": "bad allocation"
+      },
+      {
+        "address": "0x140018fc0",
+        "encoding": "ascii",
+        "file_offset": 96192,
+        "references": 2,
+        "section": ".rdata",
+        "text": "success"
+      },
+      {
+        "address": "0x140018fc8",
+        "encoding": "ascii",
+        "file_offset": 96200,
+        "references": 1,
+        "section": ".rdata",
+        "text": "address family not supported"
+      },
+      {
+        "address": "0x140018fe8",
+        "encoding": "ascii",
+        "file_offset": 96232,
+        "references": 1,
+        "section": ".rdata",
+        "text": "address in use"
+      },
+      {
+        "address": "0x140018ff8",
+        "encoding": "ascii",
+        "file_offset": 96248,
+        "references": 1,
+        "section": ".rdata",
+        "text": "address not available"
+      },
+      {
+        "address": "0x140019010",
+        "encoding": "ascii",
+        "file_offset": 96272,
+        "references": 1,
+        "section": ".rdata",
+        "text": "already connected"
+      },
+      {
+        "address": "0x140019028",
+        "encoding": "ascii",
+        "file_offset": 96296,
+        "references": 1,
+        "section": ".rdata",
+        "text": "argument list too long"
+      },
+      {
+        "address": "0x140019040",
+        "encoding": "ascii",
+        "file_offset": 96320,
+        "references": 1,
+        "section": ".rdata",
+        "text": "argument out of domain"
+      },
+      {
+        "address": "0x140019058",
+        "encoding": "ascii",
+        "file_offset": 96344,
+        "references": 1,
+        "section": ".rdata",
+        "text": "bad address"
+      },
+      {
+        "address": "0x140019068",
+        "encoding": "ascii",
+        "file_offset": 96360,
+        "references": 1,
+        "section": ".rdata",
+        "text": "bad file descriptor"
+      },
+      {
+        "address": "0x140019080",
+        "encoding": "ascii",
+        "file_offset": 96384,
+        "references": 1,
+        "section": ".rdata",
+        "text": "bad message"
+      },
+      {
+        "address": "0x140019090",
+        "encoding": "ascii",
+        "file_offset": 96400,
+        "references": 1,
+        "section": ".rdata",
+        "text": "broken pipe"
+      },
+      {
+        "address": "0x1400190a0",
+        "encoding": "ascii",
+        "file_offset": 96416,
+        "references": 1,
+        "section": ".rdata",
+        "text": "connection aborted"
+      },
+      {
+        "address": "0x1400190b8",
+        "encoding": "ascii",
+        "file_offset": 96440,
+        "references": 1,
+        "section": ".rdata",
+        "text": "connection already in progress"
+      },
+      {
+        "address": "0x1400190d8",
+        "encoding": "ascii",
+        "file_offset": 96472,
+        "references": 1,
+        "section": ".rdata",
+        "text": "connection refused"
+      },
+      {
+        "address": "0x1400190f0",
+        "encoding": "ascii",
+        "file_offset": 96496,
+        "references": 1,
+        "section": ".rdata",
+        "text": "connection reset"
+      },
+      {
+        "address": "0x140019108",
+        "encoding": "ascii",
+        "file_offset": 96520,
+        "references": 1,
+        "section": ".rdata",
+        "text": "cross device link"
+      },
+      {
+        "address": "0x140019120",
+        "encoding": "ascii",
+        "file_offset": 96544,
+        "references": 1,
+        "section": ".rdata",
+        "text": "destination address required"
+      },
+      {
+        "address": "0x140019140",
+        "encoding": "ascii",
+        "file_offset": 96576,
+        "references": 2,
+        "section": ".rdata",
+        "text": "device or resource busy"
+      },
+      {
+        "address": "0x140019158",
+        "encoding": "ascii",
+        "file_offset": 96600,
+        "references": 1,
+        "section": ".rdata",
+        "text": "directory not empty"
+      },
+      {
+        "address": "0x140019170",
+        "encoding": "ascii",
+        "file_offset": 96624,
+        "references": 1,
+        "section": ".rdata",
+        "text": "executable format error"
+      },
+      {
+        "address": "0x140019188",
+        "encoding": "ascii",
+        "file_offset": 96648,
+        "references": 1,
+        "section": ".rdata",
+        "text": "file exists"
+      },
+      {
+        "address": "0x140019198",
+        "encoding": "ascii",
+        "file_offset": 96664,
+        "references": 1,
+        "section": ".rdata",
+        "text": "file too large"
+      },
+      {
+        "address": "0x1400191a8",
+        "encoding": "ascii",
+        "file_offset": 96680,
+        "references": 1,
+        "section": ".rdata",
+        "text": "filename too long"
+      },
+      {
+        "address": "0x1400191c0",
+        "encoding": "ascii",
+        "file_offset": 96704,
+        "references": 1,
+        "section": ".rdata",
+        "text": "function not supported"
+      },
+      {
+        "address": "0x1400191d8",
+        "encoding": "ascii",
+        "file_offset": 96728,
+        "references": 1,
+        "section": ".rdata",
+        "text": "host unreachable"
+      },
+      {
+        "address": "0x1400191f0",
+        "encoding": "ascii",
+        "file_offset": 96752,
+        "references": 1,
+        "section": ".rdata",
+        "text": "identifier removed"
+      },
+      {
+        "address": "0x140019208",
+        "encoding": "ascii",
+        "file_offset": 96776,
+        "references": 1,
+        "section": ".rdata",
+        "text": "illegal byte sequence"
+      },
+      {
+        "address": "0x140019220",
+        "encoding": "ascii",
+        "file_offset": 96800,
+        "references": 1,
+        "section": ".rdata",
+        "text": "inappropriate io control operation"
+      },
+      {
+        "address": "0x140019248",
+        "encoding": "ascii",
+        "file_offset": 96840,
+        "references": 1,
+        "section": ".rdata",
+        "text": "interrupted"
+      },
+      {
+        "address": "0x140019258",
+        "encoding": "ascii",
+        "file_offset": 96856,
+        "references": 2,
+        "section": ".rdata",
+        "text": "invalid argument"
+      },
+      {
+        "address": "0x140019270",
+        "encoding": "ascii",
+        "file_offset": 96880,
+        "references": 1,
+        "section": ".rdata",
+        "text": "invalid seek"
+      },
+      {
+        "address": "0x140019280",
+        "encoding": "ascii",
+        "file_offset": 96896,
+        "references": 1,
+        "section": ".rdata",
+        "text": "io error"
+      },
+      {
+        "address": "0x140019290",
+        "encoding": "ascii",
+        "file_offset": 96912,
+        "references": 1,
+        "section": ".rdata",
+        "text": "is a directory"
+      },
+      {
+        "address": "0x1400192a0",
+        "encoding": "ascii",
+        "file_offset": 96928,
+        "references": 1,
+        "section": ".rdata",
+        "text": "message size"
+      },
+      {
+        "address": "0x1400192b0",
+        "encoding": "ascii",
+        "file_offset": 96944,
+        "references": 1,
+        "section": ".rdata",
+        "text": "network down"
+      },
+      {
+        "address": "0x1400192c0",
+        "encoding": "ascii",
+        "file_offset": 96960,
+        "references": 1,
+        "section": ".rdata",
+        "text": "network reset"
+      },
+      {
+        "address": "0x1400192d0",
+        "encoding": "ascii",
+        "file_offset": 96976,
+        "references": 1,
+        "section": ".rdata",
+        "text": "network unreachable"
+      },
+      {
+        "address": "0x1400192e8",
+        "encoding": "ascii",
+        "file_offset": 97000,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no buffer space"
+      },
+      {
+        "address": "0x1400192f8",
+        "encoding": "ascii",
+        "file_offset": 97016,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no child process"
+      },
+      {
+        "address": "0x140019310",
+        "encoding": "ascii",
+        "file_offset": 97040,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no link"
+      },
+      {
+        "address": "0x140019318",
+        "encoding": "ascii",
+        "file_offset": 97048,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no lock available"
+      },
+      {
+        "address": "0x140019330",
+        "encoding": "ascii",
+        "file_offset": 97072,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no message available"
+      },
+      {
+        "address": "0x140019348",
+        "encoding": "ascii",
+        "file_offset": 97096,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no message"
+      },
+      {
+        "address": "0x140019358",
+        "encoding": "ascii",
+        "file_offset": 97112,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no protocol option"
+      },
+      {
+        "address": "0x140019370",
+        "encoding": "ascii",
+        "file_offset": 97136,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no space on device"
+      },
+      {
+        "address": "0x140019388",
+        "encoding": "ascii",
+        "file_offset": 97160,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no stream resources"
+      },
+      {
+        "address": "0x1400193a0",
+        "encoding": "ascii",
+        "file_offset": 97184,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no such device or address"
+      },
+      {
+        "address": "0x1400193c0",
+        "encoding": "ascii",
+        "file_offset": 97216,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no such device"
+      },
+      {
+        "address": "0x1400193d0",
+        "encoding": "ascii",
+        "file_offset": 97232,
+        "references": 1,
+        "section": ".rdata",
+        "text": "no such file or directory"
+      },
+      {
+        "address": "0x1400193f0",
+        "encoding": "ascii",
+        "file_offset": 97264,
+        "references": 2,
+        "section": ".rdata",
+        "text": "no such process"
+      },
+      {
+        "address": "0x140019400",
+        "encoding": "ascii",
+        "file_offset": 97280,
+        "references": 1,
+        "section": ".rdata",
+        "text": "not a directory"
+      },
+      {
+        "address": "0x140019410",
+        "encoding": "ascii",
+        "file_offset": 97296,
+        "references": 1,
+        "section": ".rdata",
+        "text": "not a socket"
+      },
+      {
+        "address": "0x140019420",
+        "encoding": "ascii",
+        "file_offset": 97312,
+        "references": 1,
+        "section": ".rdata",
+        "text": "not a stream"
+      },
+      {
+        "address": "0x140019430",
+        "encoding": "ascii",
+        "file_offset": 97328,
+        "references": 1,
+        "section": ".rdata",
+        "text": "not connected"
+      },
+      {
+        "address": "0x140019440",
+        "encoding": "ascii",
+        "file_offset": 97344,
+        "references": 2,
+        "section": ".rdata",
+        "text": "not enough memory"
+      },
+      {
+        "address": "0x140019458",
+        "encoding": "ascii",
+        "file_offset": 97368,
+        "references": 1,
+        "section": ".rdata",
+        "text": "not supported"
+      },
+      {
+        "address": "0x140019468",
+        "encoding": "ascii",
+        "file_offset": 97384,
+        "references": 1,
+        "section": ".rdata",
+        "text": "operation canceled"
+      },
+      {
+        "address": "0x140019480",
+        "encoding": "ascii",
+        "file_offset": 97408,
+        "references": 1,
+        "section": ".rdata",
+        "text": "operation in progress"
+      },
+      {
+        "address": "0x140019498",
+        "encoding": "ascii",
+        "file_offset": 97432,
+        "references": 2,
+        "section": ".rdata",
+        "text": "operation not permitted"
+      },
+      {
+        "address": "0x1400194b0",
+        "encoding": "ascii",
+        "file_offset": 97456,
+        "references": 1,
+        "section": ".rdata",
+        "text": "operation not supported"
+      },
+      {
+        "address": "0x1400194c8",
+        "encoding": "ascii",
+        "file_offset": 97480,
+        "references": 1,
+        "section": ".rdata",
+        "text": "operation would block"
+      },
+      {
+        "address": "0x1400194e0",
+        "encoding": "ascii",
+        "file_offset": 97504,
+        "references": 1,
+        "section": ".rdata",
+        "text": "owner dead"
+      },
+      {
+        "address": "0x1400194f0",
+        "encoding": "ascii",
+        "file_offset": 97520,
+        "references": 1,
+        "section": ".rdata",
+        "text": "permission denied"
+      },
+      {
+        "address": "0x140019508",
+        "encoding": "ascii",
+        "file_offset": 97544,
+        "references": 1,
+        "section": ".rdata",
+        "text": "protocol error"
+      },
+      {
+        "address": "0x140019518",
+        "encoding": "ascii",
+        "file_offset": 97560,
+        "references": 1,
+        "section": ".rdata",
+        "text": "protocol not supported"
+      },
+      {
+        "address": "0x140019530",
+        "encoding": "ascii",
+        "file_offset": 97584,
+        "references": 1,
+        "section": ".rdata",
+        "text": "read only file system"
+      },
+      {
+        "address": "0x140019548",
+        "encoding": "ascii",
+        "file_offset": 97608,
+        "references": 2,
+        "section": ".rdata",
+        "text": "resource deadlock would occur"
+      },
+      {
+        "address": "0x140019568",
+        "encoding": "ascii",
+        "file_offset": 97640,
+        "references": 2,
+        "section": ".rdata",
+        "text": "resource unavailable try again"
+      },
+      {
+        "address": "0x140019588",
+        "encoding": "ascii",
+        "file_offset": 97672,
+        "references": 1,
+        "section": ".rdata",
+        "text": "result out of range"
+      },
+      {
+        "address": "0x1400195a0",
+        "encoding": "ascii",
+        "file_offset": 97696,
+        "references": 1,
+        "section": ".rdata",
+        "text": "state not recoverable"
+      },
+      {
+        "address": "0x1400195b8",
+        "encoding": "ascii",
+        "file_offset": 97720,
+        "references": 1,
+        "section": ".rdata",
+        "text": "stream timeout"
+      },
+      {
+        "address": "0x1400195c8",
+        "encoding": "ascii",
+        "file_offset": 97736,
+        "references": 1,
+        "section": ".rdata",
+        "text": "text file busy"
+      },
+      {
+        "address": "0x1400195d8",
+        "encoding": "ascii",
+        "file_offset": 97752,
+        "references": 1,
+        "section": ".rdata",
+        "text": "timed out"
+      },
+      {
+        "address": "0x1400195e8",
+        "encoding": "ascii",
+        "file_offset": 97768,
+        "references": 1,
+        "section": ".rdata",
+        "text": "too many files open in system"
+      },
+      {
+        "address": "0x140019608",
+        "encoding": "ascii",
+        "file_offset": 97800,
+        "references": 1,
+        "section": ".rdata",
+        "text": "too many files open"
+      },
+      {
+        "address": "0x140019620",
+        "encoding": "ascii",
+        "file_offset": 97824,
+        "references": 1,
+        "section": ".rdata",
+        "text": "too many links"
+      },
+      {
+        "address": "0x140019630",
+        "encoding": "ascii",
+        "file_offset": 97840,
+        "references": 1,
+        "section": ".rdata",
+        "text": "too many symbolic link levels"
+      },
+      {
+        "address": "0x140019650",
+        "encoding": "ascii",
+        "file_offset": 97872,
+        "references": 1,
+        "section": ".rdata",
+        "text": "value too large"
+      },
+      {
+        "address": "0x140019660",
+        "encoding": "ascii",
+        "file_offset": 97888,
+        "references": 1,
+        "section": ".rdata",
+        "text": "wrong protocol type"
+      },
+      {
+        "address": "0x140019678",
+        "encoding": "ascii",
+        "file_offset": 97912,
+        "references": 1,
+        "section": ".rdata",
+        "text": "unknown error"
+      },
+      {
+        "address": "0x14001be08",
+        "encoding": "ascii",
+        "file_offset": 108040,
+        "references": 0,
+        "section": ".rdata",
+        "text": "0123456789abcdefghijklmnopqrstuvwxyz"
+      },
+      {
+        "address": "0x14001be3a",
+        "encoding": "ascii",
+        "file_offset": 108090,
+        "references": 0,
+        "section": ".rdata",
+        "text": "\n\n\t\t\t\t\t"
+      },
+      {
+        "address": "0x14001be58",
+        "encoding": "ascii",
+        "file_offset": 108120,
+        "references": 0,
+        "section": ".rdata",
+        "text": "0123456789abcdefghijklmnopqrstuvwxyz"
+      },
+      {
+        "address": "0x14001be9f",
+        "encoding": "ascii",
+        "file_offset": 108191,
+        "references": 0,
+        "section": ".rdata",
+        "text": "\r\r\r\r\r\r"
+      },
+      {
+        "address": "0x14001bea8",
+        "encoding": "ascii",
+        "file_offset": 108200,
+        "references": 1,
+        "section": ".rdata",
+        "text": "GetSystemTimePreciseAsFileTime"
+      },
+      {
+        "address": "0x14001c018",
+        "encoding": "ascii",
+        "file_offset": 108568,
+        "references": 1,
+        "section": ".rdata",
+        "text": "bad exception"
+      },
+      {
+        "address": "0x14001c740",
+        "encoding": "ascii",
+        "file_offset": 110400,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__based("
+      },
+      {
+        "address": "0x14001c750",
+        "encoding": "ascii",
+        "file_offset": 110416,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__cdecl"
+      },
+      {
+        "address": "0x14001c758",
+        "encoding": "ascii",
+        "file_offset": 110424,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__stdcall"
+      },
+      {
+        "address": "0x14001c768",
+        "encoding": "ascii",
+        "file_offset": 110440,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__thiscall"
+      },
+      {
+        "address": "0x14001c778",
+        "encoding": "ascii",
+        "file_offset": 110456,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__fastcall"
+      },
+      {
+        "address": "0x14001c788",
+        "encoding": "ascii",
+        "file_offset": 110472,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__vectorcall"
+      },
+      {
+        "address": "0x14001c798",
+        "encoding": "ascii",
+        "file_offset": 110488,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__preserve_none"
+      },
+      {
+        "address": "0x14001c7a8",
+        "encoding": "ascii",
+        "file_offset": 110504,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__clrcall"
+      },
+      {
+        "address": "0x14001c7b4",
+        "encoding": "ascii",
+        "file_offset": 110516,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__eabi"
+      },
+      {
+        "address": "0x14001c7c0",
+        "encoding": "ascii",
+        "file_offset": 110528,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__swift_1"
+      },
+      {
+        "address": "0x14001c7d0",
+        "encoding": "ascii",
+        "file_offset": 110544,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__swift_2"
+      },
+      {
+        "address": "0x14001c7e0",
+        "encoding": "ascii",
+        "file_offset": 110560,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__swift_3"
+      },
+      {
+        "address": "0x14001c7f0",
+        "encoding": "ascii",
+        "file_offset": 110576,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__ptr64"
+      },
+      {
+        "address": "0x14001c7f8",
+        "encoding": "ascii",
+        "file_offset": 110584,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__restrict"
+      },
+      {
+        "address": "0x14001c808",
+        "encoding": "ascii",
+        "file_offset": 110600,
+        "references": 1,
+        "section": ".rdata",
+        "text": "__unaligned"
+      },
+      {
+        "address": "0x14001c818",
+        "encoding": "ascii",
+        "file_offset": 110616,
+        "references": 1,
+        "section": ".rdata",
+        "text": "restrict("
+      },
+      {
+        "address": "0x14001c824",
+        "encoding": "ascii",
+        "file_offset": 110628,
+        "references": 1,
+        "section": ".rdata",
+        "text": " new"
+      },
+      {
+        "address": "0x14001c830",
+        "encoding": "ascii",
+        "file_offset": 110640,
+        "references": 1,
+        "section": ".rdata",
+        "text": " delete"
+      },
+      {
+        "address": "0x14001c858",
+        "encoding": "ascii",
+        "file_offset": 110680,
+        "references": 1,
+        "section": ".rdata",
+        "text": "operator"
+      },
+      {
+        "address": "0x14001c8d8",
+        "encoding": "ascii",
+        "file_offset": 110808,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vftable'"
+      },
+      {
+        "address": "0x14001c8e8",
+        "encoding": "ascii",
+        "file_offset": 110824,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vbtable'"
+      },
+      {
+        "address": "0x14001c8f8",
+        "encoding": "ascii",
+        "file_offset": 110840,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vcall'"
+      },
+      {
+        "address": "0x14001c900",
+        "encoding": "ascii",
+        "file_offset": 110848,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`typeof'"
+      },
+      {
+        "address": "0x14001c910",
+        "encoding": "ascii",
+        "file_offset": 110864,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`local static guard'"
+      },
+      {
+        "address": "0x14001c928",
+        "encoding": "ascii",
+        "file_offset": 110888,
+        "references": 2,
+        "section": ".rdata",
+        "text": "`string'"
+      },
+      {
+        "address": "0x14001c938",
+        "encoding": "ascii",
+        "file_offset": 110904,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vbase destructor'"
+      },
+      {
+        "address": "0x14001c950",
+        "encoding": "ascii",
+        "file_offset": 110928,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vector deleting destructor'"
+      },
+      {
+        "address": "0x14001c970",
+        "encoding": "ascii",
+        "file_offset": 110960,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`default constructor closure'"
+      },
+      {
+        "address": "0x14001c990",
+        "encoding": "ascii",
+        "file_offset": 110992,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`scalar deleting destructor'"
+      },
+      {
+        "address": "0x14001c9b0",
+        "encoding": "ascii",
+        "file_offset": 111024,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vector constructor iterator'"
+      },
+      {
+        "address": "0x14001c9d0",
+        "encoding": "ascii",
+        "file_offset": 111056,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vector destructor iterator'"
+      },
+      {
+        "address": "0x14001c9f0",
+        "encoding": "ascii",
+        "file_offset": 111088,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vector vbase constructor iterator'"
+      },
+      {
+        "address": "0x14001ca18",
+        "encoding": "ascii",
+        "file_offset": 111128,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`virtual displacement map'"
+      },
+      {
+        "address": "0x14001ca38",
+        "encoding": "ascii",
+        "file_offset": 111160,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`eh vector constructor iterator'"
+      },
+      {
+        "address": "0x14001ca60",
+        "encoding": "ascii",
+        "file_offset": 111200,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`eh vector destructor iterator'"
+      },
+      {
+        "address": "0x14001ca80",
+        "encoding": "ascii",
+        "file_offset": 111232,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`eh vector vbase constructor iterator'"
+      },
+      {
+        "address": "0x14001caa8",
+        "encoding": "ascii",
+        "file_offset": 111272,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`copy constructor closure'"
+      },
+      {
+        "address": "0x14001cac8",
+        "encoding": "ascii",
+        "file_offset": 111304,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`udt returning'"
+      },
+      {
+        "address": "0x14001cadc",
+        "encoding": "ascii",
+        "file_offset": 111324,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`RTTI"
+      },
+      {
+        "address": "0x14001cae8",
+        "encoding": "ascii",
+        "file_offset": 111336,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`local vftable'"
+      },
+      {
+        "address": "0x14001caf8",
+        "encoding": "ascii",
+        "file_offset": 111352,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`local vftable constructor closure'"
+      },
+      {
+        "address": "0x14001cb1c",
+        "encoding": "ascii",
+        "file_offset": 111388,
+        "references": 1,
+        "section": ".rdata",
+        "text": " new[]"
+      },
+      {
+        "address": "0x14001cb28",
+        "encoding": "ascii",
+        "file_offset": 111400,
+        "references": 1,
+        "section": ".rdata",
+        "text": " delete[]"
+      },
+      {
+        "address": "0x14001cb38",
+        "encoding": "ascii",
+        "file_offset": 111416,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`omni callsig'"
+      },
+      {
+        "address": "0x14001cb48",
+        "encoding": "ascii",
+        "file_offset": 111432,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`placement delete closure'"
+      },
+      {
+        "address": "0x14001cb68",
+        "encoding": "ascii",
+        "file_offset": 111464,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`placement delete[] closure'"
+      },
+      {
+        "address": "0x14001cb88",
+        "encoding": "ascii",
+        "file_offset": 111496,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`managed vector constructor iterator'"
+      },
+      {
+        "address": "0x14001cbb0",
+        "encoding": "ascii",
+        "file_offset": 111536,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`managed vector destructor iterator'"
+      },
+      {
+        "address": "0x14001cbd8",
+        "encoding": "ascii",
+        "file_offset": 111576,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`eh vector copy constructor iterator'"
+      },
+      {
+        "address": "0x14001cc00",
+        "encoding": "ascii",
+        "file_offset": 111616,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`eh vector vbase copy constructor iterator'"
+      },
+      {
+        "address": "0x14001cc30",
+        "encoding": "ascii",
+        "file_offset": 111664,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`dynamic initializer for '"
+      },
+      {
+        "address": "0x14001cc50",
+        "encoding": "ascii",
+        "file_offset": 111696,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`dynamic atexit destructor for '"
+      },
+      {
+        "address": "0x14001cc78",
+        "encoding": "ascii",
+        "file_offset": 111736,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vector copy constructor iterator'"
+      },
+      {
+        "address": "0x14001cca0",
+        "encoding": "ascii",
+        "file_offset": 111776,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`vector vbase copy constructor iterator'"
+      },
+      {
+        "address": "0x14001ccd0",
+        "encoding": "ascii",
+        "file_offset": 111824,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`managed vector copy constructor iterator'"
+      },
+      {
+        "address": "0x14001cd00",
+        "encoding": "ascii",
+        "file_offset": 111872,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`local static thread guard'"
+      },
+      {
+        "address": "0x14001cd20",
+        "encoding": "ascii",
+        "file_offset": 111904,
+        "references": 1,
+        "section": ".rdata",
+        "text": "operator \"\" "
+      },
+      {
+        "address": "0x14001cd30",
+        "encoding": "ascii",
+        "file_offset": 111920,
+        "references": 1,
+        "section": ".rdata",
+        "text": "operator co_await"
+      },
+      {
+        "address": "0x14001cd48",
+        "encoding": "ascii",
+        "file_offset": 111944,
+        "references": 1,
+        "section": ".rdata",
+        "text": "operator<=>"
+      },
+      {
+        "address": "0x14001cd58",
+        "encoding": "ascii",
+        "file_offset": 111960,
+        "references": 1,
+        "section": ".rdata",
+        "text": " Type Descriptor'"
+      },
+      {
+        "address": "0x14001cd70",
+        "encoding": "ascii",
+        "file_offset": 111984,
+        "references": 1,
+        "section": ".rdata",
+        "text": " Base Class Descriptor at ("
+      },
+      {
+        "address": "0x14001cd90",
+        "encoding": "ascii",
+        "file_offset": 112016,
+        "references": 1,
+        "section": ".rdata",
+        "text": " Base Class Array'"
+      },
+      {
+        "address": "0x14001cda8",
+        "encoding": "ascii",
+        "file_offset": 112040,
+        "references": 1,
+        "section": ".rdata",
+        "text": " Class Hierarchy Descriptor'"
+      },
+      {
+        "address": "0x14001cdc8",
+        "encoding": "ascii",
+        "file_offset": 112072,
+        "references": 1,
+        "section": ".rdata",
+        "text": " Complete Object Locator'"
+      },
+      {
+        "address": "0x14001cde8",
+        "encoding": "ascii",
+        "file_offset": 112104,
+        "references": 1,
+        "section": ".rdata",
+        "text": "`anonymous namespace'"
+      },
+      {
+        "address": "0x14001ce18",
+        "encoding": "utf16le",
+        "file_offset": 112152,
+        "references": 1,
+        "section": ".rdata",
+        "text": "api-ms-win-core-fibers-l1-1-1"
+      },
+      {
+        "address": "0x14001ce58",
+        "encoding": "utf16le",
+        "file_offset": 112216,
+        "references": 1,
+        "section": ".rdata",
+        "text": "api-ms-win-core-synch-l1-2-0"
+      },
+      {
+        "address": "0x14001ce98",
+        "encoding": "utf16le",
+        "file_offset": 112280,
+        "references": 1,
+        "section": ".rdata",
+        "text": "kernel32"
+      },
+      {
+        "address": "0x14001ceb0",
+        "encoding": "utf16le",
+        "file_offset": 112304,
+        "references": 1,
+        "section": ".rdata",
+        "text": "api-ms-"
+      },
+      {
+        "address": "0x14001cec8",
+        "encoding": "ascii",
+        "file_offset": 112328,
+        "references": 2,
+        "section": ".rdata",
+        "text": "FlsAlloc"
+      },
+      {
+        "address": "0x14001cee0",
+        "encoding": "ascii",
+        "file_offset": 112352,
+        "references": 2,
+        "section": ".rdata",
+        "text": "FlsFree"
+      },
+      {
+        "address": "0x14001cef0",
+        "encoding": "ascii",
+        "file_offset": 112368,
+        "references": 2,
+        "section": ".rdata",
+        "text": "FlsGetValue"
+      },
+      {
+        "address": "0x14001cf08",
+        "encoding": "ascii",
+        "file_offset": 112392,
+        "references": 2,
+        "section": ".rdata",
+        "text": "FlsSetValue"
+      },
+      {
+        "address": "0x14001cf20",
+        "encoding": "ascii",
+        "file_offset": 112416,
+        "references": 2,
+        "section": ".rdata",
+        "text": "InitializeCriticalSectionEx"
+      },
+      {
+        "address": "0x14001d060",
+        "encoding": "ascii",
+        "file_offset": 112736,
+        "references": 2,
+        "section": ".rdata",
+        "text": "hostfxr_main_bundle_startupinfo"
+      },
+      {
+        "address": "0x14001d080",
+        "encoding": "ascii",
+        "file_offset": 112768,
+        "references": 4,
+        "section": ".rdata",
+        "text": "hostfxr_set_error_writer"
+      },
+      {
+        "address": "0x14001d0a0",
+        "encoding": "ascii",
+        "file_offset": 112800,
+        "references": 2,
+        "section": ".rdata",
+        "text": "hostfxr_main_startupinfo"
+      },
+      {
+        "address": "0x14001d0c0",
+        "encoding": "ascii",
+        "file_offset": 112832,
+        "references": 2,
+        "section": ".rdata",
+        "text": "hostfxr_main"
+      },
+      {
+        "address": "0x14001d0d0",
+        "encoding": "utf16le",
+        "file_offset": 112848,
+        "references": 6,
+        "section": ".rdata",
+        "text": "hostfxr.dll"
+      },
+      {
+        "address": "0x14001d0f0",
+        "encoding": "utf16le",
+        "file_offset": 112880,
+        "references": 1,
+        "section": ".rdata",
+        "text": "The library %s was found, but loading it from %s failed"
+      },
+      {
+        "address": "0x14001d160",
+        "encoding": "utf16le",
+        "file_offset": 112992,
+        "references": 1,
+        "section": ".rdata",
+        "text": "  - Installing .NET prerequisites might help resolve this problem."
+      },
+      {
+        "address": "0x14001d1f0",
+        "encoding": "utf16le",
+        "file_offset": 113136,
+        "references": 1,
+        "section": ".rdata",
+        "text": "https://go.microsoft.com/fwlink/?linkid=798306"
+      },
+      {
+        "address": "0x14001d250",
+        "encoding": "utf16le",
+        "file_offset": 113232,
+        "references": 1,
+        "section": ".rdata",
+        "text": "     %s"
+      },
+      {
+        "address": "0x14001d260",
+        "encoding": "ascii",
+        "file_offset": 113248,
+        "references": 0,
+        "section": ".rdata",
+        "text": "Unknown exception"
+      },
+      {
+        "address": "0x14001d278",
+        "encoding": "ascii",
+        "file_offset": 113272,
+        "references": 1,
+        "section": ".rdata",
+        "text": "bad array new length"
+      },
+      {
+        "address": "0x14001d290",
+        "encoding": "ascii",
+        "file_offset": 113296,
+        "references": 1,
+        "section": ".rdata",
+        "text": "string too long"
+      },
+      {
+        "address": "0x14001d2a8",
+        "encoding": "ascii",
+        "file_offset": 113320,
+        "references": 0,
+        "section": ".rdata",
+        "text": "iostream"
+      },
+      {
+        "address": "0x14001d2b8",
+        "encoding": "ascii",
+        "file_offset": 113336,
+        "references": 1,
+        "section": ".rdata",
+        "text": "bad cast"
+      },
+      {
+        "address": "0x14001d2c8",
+        "encoding": "ascii",
+        "file_offset": 113352,
+        "references": 1,
+        "section": ".rdata",
+        "text": "bad locale name"
+      },
+      {
+        "address": "0x14001d2e0",
+        "encoding": "ascii",
+        "file_offset": 113376,
+        "references": 5,
+        "section": ".rdata",
+        "text": "ios_base::badbit set"
+      },
+      {
+        "address": "0x14001d2f8",
+        "encoding": "ascii",
+        "file_offset": 113400,
+        "references": 5,
+        "section": ".rdata",
+        "text": "ios_base::failbit set"
+      },
+      {
+        "address": "0x14001d310",
+        "encoding": "ascii",
+        "file_offset": 113424,
+        "references": 5,
+        "section": ".rdata",
+        "text": "ios_base::eofbit set"
+      },
+      {
+        "address": "0x14001d330",
+        "encoding": "utf16le",
+        "file_offset": 113456,
+        "references": 1,
+        "section": ".rdata",
+        "text": ".NET Runtime"
+      },
+      {
+        "address": "0x14001d350",
+        "encoding": "utf16le",
+        "file_offset": 113488,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Description: A .NET application failed.\n"
+      },
+      {
+        "address": "0x14001d3a8",
+        "encoding": "utf16le",
+        "file_offset": 113576,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Application: "
+      },
+      {
+        "address": "0x14001d3c8",
+        "encoding": "utf16le",
+        "file_offset": 113608,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Path: "
+      },
+      {
+        "address": "0x14001d3d8",
+        "encoding": "utf16le",
+        "file_offset": 113624,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Message: "
+      },
+      {
+        "address": "0x14001d3f0",
+        "encoding": "utf16le",
+        "file_offset": 113648,
+        "references": 7,
+        "section": ".rdata",
+        "text": "https://aka.ms/dotnet-core-applaunch?"
+      },
+      {
+        "address": "0x14001d440",
+        "encoding": "utf16le",
+        "file_offset": 113728,
+        "references": 6,
+        "section": ".rdata",
+        "text": "  - https://aka.ms/dotnet-core-applaunch?"
+      },
+      {
+        "address": "0x14001d498",
+        "encoding": "utf16le",
+        "file_offset": 113816,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Architecture: "
+      },
+      {
+        "address": "0x14001d4b8",
+        "encoding": "utf16le",
+        "file_offset": 113848,
+        "references": 2,
+        "section": ".rdata",
+        "text": "\nApp host version: 8.0.33\n\n"
+      },
+      {
+        "address": "0x14001d4f0",
+        "encoding": "utf16le",
+        "file_offset": 113904,
+        "references": 3,
+        "section": ".rdata",
+        "text": "open"
+      },
+      {
+        "address": "0x14001d500",
+        "encoding": "utf16le",
+        "file_offset": 113920,
+        "references": 1,
+        "section": ".rdata",
+        "text": "GetWindowsDirectory failed. Error code: %d"
+      },
+      {
+        "address": "0x14001d558",
+        "encoding": "utf16le",
+        "file_offset": 114008,
+        "references": 1,
+        "section": ".rdata",
+        "text": "WindowsShell.Manifest"
+      },
+      {
+        "address": "0x14001d590",
+        "encoding": "utf16le",
+        "file_offset": 114064,
+        "references": 1,
+        "section": ".rdata",
+        "text": "CreateActCtxW failed using manifest '%s'. Error code: %d"
+      },
+      {
+        "address": "0x14001d610",
+        "encoding": "utf16le",
+        "file_offset": 114192,
+        "references": 1,
+        "section": ".rdata",
+        "text": "ActivateActCtx failed. Error code: %d"
+      },
+      {
+        "address": "0x14001d660",
+        "encoding": "utf16le",
+        "file_offset": 114272,
+        "references": 2,
+        "section": ".rdata",
+        "text": "<A HREF=\""
+      },
+      {
+        "address": "0x14001d680",
+        "encoding": "utf16le",
+        "file_offset": 114304,
+        "references": 1,
+        "section": ".rdata",
+        "text": "</A>"
+      },
+      {
+        "address": "0x14001d690",
+        "encoding": "utf16le",
+        "file_offset": 114320,
+        "references": 1,
+        "section": ".rdata",
+        "text": "comctl32.dll"
+      },
+      {
+        "address": "0x14001d6b0",
+        "encoding": "ascii",
+        "file_offset": 114352,
+        "references": 1,
+        "section": ".rdata",
+        "text": "TaskDialogIndirect"
+      },
+      {
+        "address": "0x14001d6d0",
+        "encoding": "utf16le",
+        "file_offset": 114384,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Download it now\nYou will need to run the downloaded installer"
+      },
+      {
+        "address": "0x14001d750",
+        "encoding": "utf16le",
+        "file_offset": 114512,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Learn more:\n"
+      },
+      {
+        "address": "0x14001d770",
+        "encoding": "utf16le",
+        "file_offset": 114544,
+        "references": 1,
+        "section": ".rdata",
+        "text": "https://aka.ms/dotnet/app-launch-failed"
+      },
+      {
+        "address": "0x14001d7c0",
+        "encoding": "utf16le",
+        "file_offset": 114624,
+        "references": 2,
+        "section": ".rdata",
+        "text": "\n\nDownload link:\n"
+      },
+      {
+        "address": "0x14001d7e8",
+        "encoding": "utf16le",
+        "file_offset": 114664,
+        "references": 4,
+        "section": ".rdata",
+        "text": "DOTNET_DISABLE_GUI_ERRORS"
+      },
+      {
+        "address": "0x14001d820",
+        "encoding": "utf16le",
+        "file_offset": 114720,
+        "references": 2,
+        "section": ".rdata",
+        "text": "You must install .NET Desktop Runtime to run this application."
+      },
+      {
+        "address": "0x14001d8a0",
+        "encoding": "utf16le",
+        "file_offset": 114848,
+        "references": 2,
+        "section": ".rdata",
+        "text": "You must install or update .NET to run this application."
+      },
+      {
+        "address": "0x14001d918",
+        "encoding": "utf16le",
+        "file_offset": 114968,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Framework: '"
+      },
+      {
+        "address": "0x14001d938",
+        "encoding": "utf16le",
+        "file_offset": 115000,
+        "references": 2,
+        "section": ".rdata",
+        "text": "The framework '"
+      },
+      {
+        "address": "0x14001d958",
+        "encoding": "utf16le",
+        "file_offset": 115032,
+        "references": 2,
+        "section": ".rdata",
+        "text": " was not found."
+      },
+      {
+        "address": "0x14001d978",
+        "encoding": "utf16le",
+        "file_offset": 115064,
+        "references": 1,
+        "section": ".rdata",
+        "text": "  _ "
+      },
+      {
+        "address": "0x14001d988",
+        "encoding": "utf16le",
+        "file_offset": 115080,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Required: "
+      },
+      {
+        "address": "0x14001d9b0",
+        "encoding": "utf16le",
+        "file_offset": 115120,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Bundle header version compatibility check failed."
+      },
+      {
+        "address": "0x14001da18",
+        "encoding": "utf16le",
+        "file_offset": 115224,
+        "references": 2,
+        "section": ".rdata",
+        "text": "&apphost_version="
+      },
+      {
+        "address": "0x14001da40",
+        "encoding": "utf16le",
+        "file_offset": 115264,
+        "references": 4,
+        "section": ".rdata",
+        "text": "8.0.33"
+      },
+      {
+        "address": "0x14001da50",
+        "encoding": "utf16le",
+        "file_offset": 115280,
+        "references": 2,
+        "section": ".rdata",
+        "text": "&gui=true"
+      },
+      {
+        "address": "0x14001da70",
+        "encoding": "utf16le",
+        "file_offset": 115312,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Showing error dialog for application: '%s' - error code: 0x%x - url: '%s' - details: %s"
+      },
+      {
+        "address": "0x14001db20",
+        "encoding": "utf16le",
+        "file_offset": 115488,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Learn more:\nhttps://aka.ms/dotnet/app-launch-failed\n\nWould you like to download it now?"
+      },
+      {
+        "address": "0x14001dbd0",
+        "encoding": "utf16le",
+        "file_offset": 115664,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Redirecting errors to custom writer."
+      },
+      {
+        "address": "0x14001dc20",
+        "encoding": "ascii",
+        "file_offset": 115744,
+        "references": 1,
+        "section": ".rdata",
+        "text": "invalid string position"
+      },
+      {
+        "address": "0x14001dc48",
+        "encoding": "ascii",
+        "file_offset": 115784,
+        "references": 1,
+        "section": ".rdata",
+        "text": "iostream stream "
+      },
+      {
+        "address": "0x14001dc58",
+        "encoding": "ascii",
+        "file_offset": 115800,
+        "references": 1,
+        "section": ".rdata",
+        "text": "erro"
+      },
+      {
+        "address": "0x14001dc5c",
+        "encoding": "ascii",
+        "file_offset": 115804,
+        "references": 1,
+        "section": ".rdata",
+        "text": "r"
+      },
+      {
+        "address": "0x14001dc60",
+        "encoding": "utf16le",
+        "file_offset": 115808,
+        "references": 3,
+        "section": ".rdata",
+        "text": "COREHOST_TRACE"
+      },
+      {
+        "address": "0x14001dc80",
+        "encoding": "utf16le",
+        "file_offset": 115840,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Tracing enabled @ %s"
+      },
+      {
+        "address": "0x14001dcb0",
+        "encoding": "utf16le",
+        "file_offset": 115888,
+        "references": 3,
+        "section": ".rdata",
+        "text": "COREHOST_TRACEFILE"
+      },
+      {
+        "address": "0x14001dce0",
+        "encoding": "utf16le",
+        "file_offset": 115936,
+        "references": 3,
+        "section": ".rdata",
+        "text": "COREHOST_TRACE_VERBOSITY"
+      },
+      {
+        "address": "0x14001dd20",
+        "encoding": "utf16le",
+        "file_offset": 116000,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Unable to open COREHOST_TRACEFILE=%s for writing"
+      },
+      {
+        "address": "0x14001dd88",
+        "encoding": "ascii",
+        "file_offset": 116104,
+        "references": 1,
+        "section": ".rdata",
+        "text": "vector too long"
+      },
+      {
+        "address": "0x14001dd98",
+        "encoding": "ascii",
+        "file_offset": 116120,
+        "references": 4,
+        "section": ".rdata",
+        "text": "invalid stoul argument"
+      },
+      {
+        "address": "0x14001ddb0",
+        "encoding": "ascii",
+        "file_offset": 116144,
+        "references": 4,
+        "section": ".rdata",
+        "text": "stoul argument out of range"
+      },
+      {
+        "address": "0x14001ddd0",
+        "encoding": "utf16le",
+        "file_offset": 116176,
+        "references": 1,
+        "section": ".rdata",
+        "text": "win10"
+      },
+      {
+        "address": "0x14001dde8",
+        "encoding": "utf16le",
+        "file_offset": 116200,
+        "references": 1,
+        "section": ".rdata",
+        "text": "arm64"
+      },
+      {
+        "address": "0x14001ddf8",
+        "encoding": "utf16le",
+        "file_offset": 116216,
+        "references": 1,
+        "section": ".rdata",
+        "text": "armv6"
+      },
+      {
+        "address": "0x14001de08",
+        "encoding": "utf16le",
+        "file_offset": 116232,
+        "references": 1,
+        "section": ".rdata",
+        "text": "loongarch64"
+      },
+      {
+        "address": "0x14001de20",
+        "encoding": "utf16le",
+        "file_offset": 116256,
+        "references": 1,
+        "section": ".rdata",
+        "text": "ppc64le"
+      },
+      {
+        "address": "0x14001de30",
+        "encoding": "utf16le",
+        "file_offset": 116272,
+        "references": 1,
+        "section": ".rdata",
+        "text": "riscv64"
+      },
+      {
+        "address": "0x14001de40",
+        "encoding": "utf16le",
+        "file_offset": 116288,
+        "references": 1,
+        "section": ".rdata",
+        "text": "s390x"
+      },
+      {
+        "address": "0x14001de60",
+        "encoding": "utf16le",
+        "file_offset": 116320,
+        "references": 1,
+        "section": ".rdata",
+        "text": "win-x64"
+      },
+      {
+        "address": "0x14001de70",
+        "encoding": "utf16le",
+        "file_offset": 116336,
+        "references": 3,
+        "section": ".rdata",
+        "text": "DOTNET_RUNTIME_ID"
+      },
+      {
+        "address": "0x14001dea0",
+        "encoding": "utf16le",
+        "file_offset": 116384,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Did not find [%s] directory [%s]"
+      },
+      {
+        "address": "0x14001def0",
+        "encoding": "utf16le",
+        "file_offset": 116464,
+        "references": 2,
+        "section": ".rdata",
+        "text": "0123456789"
+      },
+      {
+        "address": "0x14001df08",
+        "encoding": "utf16le",
+        "file_offset": 116488,
+        "references": 1,
+        "section": ".rdata",
+        "text": "DOTNET_ROOT_"
+      },
+      {
+        "address": "0x14001df28",
+        "encoding": "utf16le",
+        "file_offset": 116520,
+        "references": 2,
+        "section": ".rdata",
+        "text": "DOTNET_ROOT(x86)"
+      },
+      {
+        "address": "0x14001df50",
+        "encoding": "utf16le",
+        "file_offset": 116560,
+        "references": 2,
+        "section": ".rdata",
+        "text": "DOTNET_ROOT"
+      },
+      {
+        "address": "0x14001df70",
+        "encoding": "utf16le",
+        "file_offset": 116592,
+        "references": 2,
+        "section": ".rdata",
+        "text": "missing_runtime=true"
+      },
+      {
+        "address": "0x14001dfa0",
+        "encoding": "utf16le",
+        "file_offset": 116640,
+        "references": 2,
+        "section": ".rdata",
+        "text": "&arch="
+      },
+      {
+        "address": "0x14001dfb0",
+        "encoding": "utf16le",
+        "file_offset": 116656,
+        "references": 2,
+        "section": ".rdata",
+        "text": "&rid="
+      },
+      {
+        "address": "0x14001dfc0",
+        "encoding": "utf16le",
+        "file_offset": 116672,
+        "references": 1,
+        "section": ".rdata",
+        "text": "&os="
+      },
+      {
+        "address": "0x14001dfd0",
+        "encoding": "utf16le",
+        "file_offset": 116688,
+        "references": 1,
+        "section": ".rdata",
+        "text": "8.0.33 @Commit: da7a9beabf4cccc624399d583f52f080a4c858c2"
+      },
+      {
+        "address": "0x14001e098",
+        "encoding": "utf16le",
+        "file_offset": 116888,
+        "references": 2,
+        "section": ".rdata",
+        "text": "kernel32.dll"
+      },
+      {
+        "address": "0x14001e0b8",
+        "encoding": "ascii",
+        "file_offset": 116920,
+        "references": 1,
+        "section": ".rdata",
+        "text": "GetTempPath2W"
+      },
+      {
+        "address": "0x14001e0c8",
+        "encoding": "utf16le",
+        "file_offset": 116936,
+        "references": 1,
+        "section": ".rdata",
+        "text": "%c GMT"
+      },
+      {
+        "address": "0x14001e0e0",
+        "encoding": "utf16le",
+        "file_offset": 116960,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Failed to load the dll from [%s], HRESULT: 0x%X"
+      },
+      {
+        "address": "0x14001e140",
+        "encoding": "utf16le",
+        "file_offset": 117056,
+        "references": 1,
+        "section": ".rdata",
+        "text": "pal::load_library"
+      },
+      {
+        "address": "0x14001e170",
+        "encoding": "utf16le",
+        "file_offset": 117104,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Failed to pin library [%s] in [%s]"
+      },
+      {
+        "address": "0x14001e1b8",
+        "encoding": "utf16le",
+        "file_offset": 117176,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Loaded library from %s"
+      },
+      {
+        "address": "0x14001e1f0",
+        "encoding": "utf16le",
+        "file_offset": 117232,
+        "references": 5,
+        "section": ".rdata",
+        "text": "Probed for and did not resolve library symbol %S"
+      },
+      {
+        "address": "0x14001e258",
+        "encoding": "utf16le",
+        "file_offset": 117336,
+        "references": 1,
+        "section": ".rdata",
+        "text": "ProgramFiles(x86)"
+      },
+      {
+        "address": "0x14001e280",
+        "encoding": "utf16le",
+        "file_offset": 117376,
+        "references": 3,
+        "section": ".rdata",
+        "text": "_DOTNET_TEST_DEFAULT_INSTALL_PATH"
+      },
+      {
+        "address": "0x14001e2c8",
+        "encoding": "utf16le",
+        "file_offset": 117448,
+        "references": 1,
+        "section": ".rdata",
+        "text": "ProgramFiles"
+      },
+      {
+        "address": "0x14001e2e8",
+        "encoding": "utf16le",
+        "file_offset": 117480,
+        "references": 1,
+        "section": ".rdata",
+        "text": "dotnet"
+      },
+      {
+        "address": "0x14001e2f8",
+        "encoding": "utf16le",
+        "file_offset": 117496,
+        "references": 1,
+        "section": ".rdata",
+        "text": "SOFTWARE\\dotnet"
+      },
+      {
+        "address": "0x14001e318",
+        "encoding": "utf16le",
+        "file_offset": 117528,
+        "references": 3,
+        "section": ".rdata",
+        "text": "_DOTNET_TEST_REGISTRY_PATH"
+      },
+      {
+        "address": "0x14001e350",
+        "encoding": "utf16le",
+        "file_offset": 117584,
+        "references": 1,
+        "section": ".rdata",
+        "text": "HKEY_CURRENT_USER\\"
+      },
+      {
+        "address": "0x14001e378",
+        "encoding": "utf16le",
+        "file_offset": 117624,
+        "references": 1,
+        "section": ".rdata",
+        "text": "\\Setup\\InstalledVersions\\"
+      },
+      {
+        "address": "0x14001e3b0",
+        "encoding": "utf16le",
+        "file_offset": 117680,
+        "references": 1,
+        "section": ".rdata",
+        "text": "InstallLocation"
+      },
+      {
+        "address": "0x14001e3d8",
+        "encoding": "utf16le",
+        "file_offset": 117720,
+        "references": 1,
+        "section": ".rdata",
+        "text": "HKCU\\"
+      },
+      {
+        "address": "0x14001e3e8",
+        "encoding": "utf16le",
+        "file_offset": 117736,
+        "references": 1,
+        "section": ".rdata",
+        "text": "HKLM\\"
+      },
+      {
+        "address": "0x14001e400",
+        "encoding": "utf16le",
+        "file_offset": 117760,
+        "references": 3,
+        "section": ".rdata",
+        "text": "_DOTNET_TEST_GLOBALLY_REGISTERED_PATH"
+      },
+      {
+        "address": "0x14001e450",
+        "encoding": "utf16le",
+        "file_offset": 117840,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Looking for architecture-specific registry value in '%s'."
+      },
+      {
+        "address": "0x14001e4d0",
+        "encoding": "utf16le",
+        "file_offset": 117968,
+        "references": 1,
+        "section": ".rdata",
+        "text": "The registry key ['%s'] does not exist."
+      },
+      {
+        "address": "0x14001e520",
+        "encoding": "utf16le",
+        "file_offset": 118048,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Failed to open the registry key. Error code: 0x%X"
+      },
+      {
+        "address": "0x14001e590",
+        "encoding": "utf16le",
+        "file_offset": 118160,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Failed to get the size of the install location registry value or it's empty. Error code: 0x%X"
+      },
+      {
+        "address": "0x14001e650",
+        "encoding": "utf16le",
+        "file_offset": 118352,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Failed to get the value of the install location registry value. Error code: 0x%X"
+      },
+      {
+        "address": "0x14001e700",
+        "encoding": "utf16le",
+        "file_offset": 118528,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Found registered install location '%s'."
+      },
+      {
+        "address": "0x14001e750",
+        "encoding": "ascii",
+        "file_offset": 118608,
+        "references": 1,
+        "section": ".rdata",
+        "text": "ntdll.dll"
+      },
+      {
+        "address": "0x14001e760",
+        "encoding": "ascii",
+        "file_offset": 118624,
+        "references": 1,
+        "section": ".rdata",
+        "text": "RtlGetVersion"
+      },
+      {
+        "address": "0x14001e770",
+        "encoding": "utf16le",
+        "file_offset": 118640,
+        "references": 1,
+        "section": ".rdata",
+        "text": "win7"
+      },
+      {
+        "address": "0x14001e780",
+        "encoding": "utf16le",
+        "file_offset": 118656,
+        "references": 1,
+        "section": ".rdata",
+        "text": "win8"
+      },
+      {
+        "address": "0x14001e790",
+        "encoding": "utf16le",
+        "file_offset": 118672,
+        "references": 1,
+        "section": ".rdata",
+        "text": "win81"
+      },
+      {
+        "address": "0x14001e7b0",
+        "encoding": "utf16le",
+        "file_offset": 118704,
+        "references": 10,
+        "section": ".rdata",
+        "text": "Failed to read environment variable [%s], HRESULT: 0x%X"
+      },
+      {
+        "address": "0x14001e820",
+        "encoding": "utf16le",
+        "file_offset": 118816,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Error resolving full path [%s]"
+      },
+      {
+        "address": "0x14001e870",
+        "encoding": "utf16le",
+        "file_offset": 118896,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Could not load 'kernel32.dll': %u"
+      },
+      {
+        "address": "0x14001e8b8",
+        "encoding": "ascii",
+        "file_offset": 118968,
+        "references": 1,
+        "section": ".rdata",
+        "text": "IsWow64Process2"
+      },
+      {
+        "address": "0x14001e8d0",
+        "encoding": "utf16le",
+        "file_offset": 118992,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Call to IsWow64Process2 failed: %u"
+      },
+      {
+        "address": "0x14001e918",
+        "encoding": "utf16le",
+        "file_offset": 119064,
+        "references": 1,
+        "section": ".rdata",
+        "text": "\\\\?\\"
+      },
+      {
+        "address": "0x14001e928",
+        "encoding": "utf16le",
+        "file_offset": 119080,
+        "references": 1,
+        "section": ".rdata",
+        "text": "\\\\.\\"
+      },
+      {
+        "address": "0x14001e938",
+        "encoding": "utf16le",
+        "file_offset": 119096,
+        "references": 1,
+        "section": ".rdata",
+        "text": "\\\\?\\UNC\\"
+      },
+      {
+        "address": "0x14001e960",
+        "encoding": "utf16le",
+        "file_offset": 119136,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Reading fx resolver directory=[%s]"
+      },
+      {
+        "address": "0x14001e9b0",
+        "encoding": "utf16le",
+        "file_offset": 119216,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Considering fxr version=[%s]..."
+      },
+      {
+        "address": "0x14001e9f0",
+        "encoding": "utf16le",
+        "file_offset": 119280,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Error: [%s] does not contain any version-numbered child folders"
+      },
+      {
+        "address": "0x14001ea70",
+        "encoding": "utf16le",
+        "file_offset": 119408,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Detected latest fxr version=[%s]..."
+      },
+      {
+        "address": "0x14001eab8",
+        "encoding": "utf16le",
+        "file_offset": 119480,
+        "references": 2,
+        "section": ".rdata",
+        "text": "Resolved fxr [%s]..."
+      },
+      {
+        "address": "0x14001eaf0",
+        "encoding": "utf16le",
+        "file_offset": 119536,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Error: the required library %s could not be found in [%s]"
+      },
+      {
+        "address": "0x14001eb70",
+        "encoding": "utf16le",
+        "file_offset": 119664,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Using environment variable %s=[%s] as runtime location."
+      },
+      {
+        "address": "0x14001ebe0",
+        "encoding": "utf16le",
+        "file_offset": 119776,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Using global installation location [%s] as runtime location."
+      },
+      {
+        "address": "0x14001ec60",
+        "encoding": "utf16le",
+        "file_offset": 119904,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Error: the default install location cannot be obtained."
+      },
+      {
+        "address": "0x14001ecd0",
+        "encoding": "utf16le",
+        "file_offset": 120016,
+        "references": 1,
+        "section": ".rdata",
+        "text": "host"
+      },
+      {
+        "address": "0x14001ecf0",
+        "encoding": "utf16le",
+        "file_offset": 120048,
+        "references": 1,
+        "section": ".rdata",
+        "text": "The required library %s could not be found. Searched with root path [%s], environment variable [%s], default install location [%s], self-registered config location [%s]"
+      },
+      {
+        "address": "0x14001ee48",
+        "encoding": "utf16le",
+        "file_offset": 120392,
+        "references": 1,
+        "section": ".rdata",
+        "text": "Not found"
+      },
+      {
+        "address": "0x14001ee60",
+        "encoding": "utf16le",
+        "file_offset": 120416,
+        "references": 1,
+        "section": ".rdata",
+        "text": "You must install .NET to run this application."
+      },
+      {
+        "address": "0x14001eec0",
+        "encoding": "utf16le",
+        "file_offset": 120512,
+        "references": 2,
+        "section": ".rdata",
+        "text": "%s\n\nApp: %s\nArchitecture: %s\nApp host version: %s\n.NET location: %s\n\nLearn more:\nhttps://aka.ms/dotnet/app-launch-failed\n\nDownload the .NET runtime:\n%s&apphost_version=%s"
+      }
+    ],
+    "total": 564
+  },
+  "summary": "564 strings (showing 300).",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "strings are read from data sections; text built at run time or stored compressed isn't listed"
+    }
+  ],
+  "coverage": {
+    "status": "partial",
+    "examined": 300,
+    "total": 564,
+    "next_offset": 300
+  },
+  "locations": [],
+  "links": []
+}

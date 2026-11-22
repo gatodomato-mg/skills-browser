@@ -1,0 +1,13 @@
+{
+  "id": "unk_f85cc07bbaff59bc",
+  "revision": 1,
+  "question": "What sizes, URLs, file paths, or other fixed values does the app use?",
+  "severity": "medium",
+  "domain": "values",
+  "status": "open",
+  "probes": [
+    "read constants from decompiled code"
+  ],
+  "evidence_for": [],
+  "evidence_against": []
+}

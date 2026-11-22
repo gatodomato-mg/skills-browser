@@ -1,0 +1,461 @@
+{
+  "id": "ev_5d972829dd28e2ce8bc7b9dfd424905c161319139bb304ac44e398a8e6af9d34",
+  "subject": {
+    "kind": "managed",
+    "sha256": "e754b47aa56752f8d1ea017fa3c66c25bad949eed0aa17c221d4186489dfc783",
+    "name": "skills-browser.dll"
+  },
+  "operation": "managed_assembly_show",
+  "params": {
+    "path": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\opencode\\skills_bundle\\skills-browser.dll"
+  },
+  "result": {
+    "assembly": {
+      "culture": "",
+      "flags": 0,
+      "hash_algorithm": 32772,
+      "name": "skills-browser",
+      "public_key_bytes": 0,
+      "version": "1.0.0.0"
+    },
+    "assembly_attributes": [
+      {
+        "attribute_type": "System.Runtime.CompilerServices.ExtensionAttribute",
+        "complete": true,
+        "fixed_args": [],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Runtime.CompilerServices.CompilationRelaxationsAttribute",
+        "complete": true,
+        "fixed_args": [
+          8
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Runtime.CompilerServices.RuntimeCompatibilityAttribute",
+        "complete": true,
+        "fixed_args": [],
+        "named_args": {
+          "WrapNonExceptionThrows": true
+        },
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Diagnostics.DebuggableAttribute",
+        "complete": true,
+        "fixed_args": [
+          2
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Runtime.Versioning.TargetFrameworkAttribute",
+        "complete": true,
+        "fixed_args": [
+          ".NETCoreApp,Version=v8.0"
+        ],
+        "named_args": {
+          "FrameworkDisplayName": ".NET 8.0"
+        },
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Reflection.AssemblyCompanyAttribute",
+        "complete": true,
+        "fixed_args": [
+          "skills-browser"
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Reflection.AssemblyConfigurationAttribute",
+        "complete": true,
+        "fixed_args": [
+          "Release"
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Reflection.AssemblyFileVersionAttribute",
+        "complete": true,
+        "fixed_args": [
+          "1.0.0.0"
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Reflection.AssemblyInformationalVersionAttribute",
+        "complete": true,
+        "fixed_args": [
+          "1.0.0+490caaf1bba29a1e45ea4147c8352b0fff11bf0a"
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Reflection.AssemblyProductAttribute",
+        "complete": true,
+        "fixed_args": [
+          "skills-browser"
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Reflection.AssemblyTitleAttribute",
+        "complete": true,
+        "fixed_args": [
+          "skills-browser"
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Runtime.Versioning.TargetPlatformAttribute",
+        "complete": true,
+        "fixed_args": [
+          "Windows7.0"
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      },
+      {
+        "attribute_type": "System.Runtime.Versioning.SupportedOSPlatformAttribute",
+        "complete": true,
+        "fixed_args": [
+          "Windows7.0"
+        ],
+        "named_args": {},
+        "owner": "assembly"
+      }
+    ],
+    "assembly_refs": [
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Runtime",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x23000001",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Text.RegularExpressions",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x23000002",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Collections.Concurrent",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x23000003",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Threading",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x23000004",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Collections",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x23000005",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Text.Json",
+        "public_key_or_token": "cc7b13ffcd2ddd51",
+        "token": "0x23000006",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Net.HttpListener",
+        "public_key_or_token": "cc7b13ffcd2ddd51",
+        "token": "0x23000007",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "Microsoft.Web.WebView2.WinForms",
+        "public_key_or_token": "2a8ab48044d2601e",
+        "token": "0x23000008",
+        "version": "1.0.2903.40"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Windows.Forms",
+        "public_key_or_token": "b77a5c561934e089",
+        "token": "0x23000009",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Diagnostics.Process",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x2300000a",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Net.Http",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x2300000b",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Windows.Forms.Primitives",
+        "public_key_or_token": "b77a5c561934e089",
+        "token": "0x2300000c",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Memory",
+        "public_key_or_token": "cc7b13ffcd2ddd51",
+        "token": "0x2300000d",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Drawing.Primitives",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x2300000e",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Linq",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x2300000f",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Net.Primitives",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x23000010",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Collections.Specialized",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x23000011",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Net.WebHeaderCollection",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x23000012",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "System.Console",
+        "public_key_or_token": "b03f5f7f11d50a3a",
+        "token": "0x23000013",
+        "version": "8.0.0.0"
+      },
+      {
+        "culture": "",
+        "flags": 0,
+        "name": "Microsoft.Web.WebView2.Core",
+        "public_key_or_token": "2a8ab48044d2601e",
+        "token": "0x23000014",
+        "version": "1.0.2903.40"
+      }
+    ],
+    "classification": {
+      "dotnet_arch": "x64",
+      "dotnet_family": "dotnet-core",
+      "implementation": "il-only",
+      "reasons": [
+        "TargetFramework .NETCoreApp,Version=v8.0"
+      ]
+    },
+    "cli_flags": [
+      "il-only"
+    ],
+    "entry_point": {
+      "method": "SkillsBrowser.Program::Main()",
+      "token": "0x0600009a"
+    },
+    "exported_types": [],
+    "has_vtable_fixups": false,
+    "is_dll": false,
+    "machine": "x64",
+    "manifest_resources": [
+      {
+        "implementation": "embedded",
+        "name": "web/index.html",
+        "offset": 0,
+        "size": 8451,
+        "visibility": "public"
+      },
+      {
+        "implementation": "embedded",
+        "name": "web/app.js",
+        "offset": 8456,
+        "size": 25143,
+        "visibility": "public"
+      },
+      {
+        "implementation": "embedded",
+        "name": "web/styles.css",
+        "offset": 33608,
+        "size": 23228,
+        "visibility": "public"
+      }
+    ],
+    "metadata_version": "v4.0.30319",
+    "module": {
+      "mvid": "9e4a64fb-dce1-4483-a7a8-4e557953c0d1",
+      "name": "skills-browser.dll"
+    },
+    "module_refs": [],
+    "pe_kind": "PE32+",
+    "ready_to_run": false,
+    "ready_to_run_version": null,
+    "resources_bytes": 56840,
+    "row_counts": {
+      "Assembly": 1,
+      "AssemblyRef": 20,
+      "Constant": 5,
+      "CustomAttribute": 617,
+      "Field": 341,
+      "FieldRVA": 1,
+      "GenericParam": 42,
+      "InterfaceImpl": 34,
+      "ManifestResource": 3,
+      "MemberRef": 587,
+      "MethodDef": 475,
+      "MethodImpl": 64,
+      "MethodSemantics": 45,
+      "MethodSpec": 113,
+      "Module": 1,
+      "NestedClass": 93,
+      "Param": 315,
+      "Property": 43,
+      "PropertyMap": 13,
+      "StandAloneSig": 121,
+      "TypeDef": 134,
+      "TypeRef": 182,
+      "TypeSpec": 121
+    },
+    "runtime_version": "2.5",
+    "sections": [
+      {
+        "characteristics": 1610612768,
+        "name": ".text",
+        "raw_offset": 512,
+        "raw_size": 161280,
+        "virtual_address": 8192,
+        "virtual_size": 160840
+      },
+      {
+        "characteristics": 1073741888,
+        "name": ".rsrc",
+        "raw_offset": 161792,
+        "raw_size": 1536,
+        "virtual_address": 172032,
+        "virtual_size": 1504
+      }
+    ],
+    "streams": [
+      {
+        "name": "#~",
+        "offset": 108,
+        "size": 24144
+      },
+      {
+        "name": "#Strings",
+        "offset": 24252,
+        "size": 14900
+      },
+      {
+        "name": "#US",
+        "offset": 39152,
+        "size": 7848
+      },
+      {
+        "name": "#GUID",
+        "offset": 47000,
+        "size": 16
+      },
+      {
+        "name": "#Blob",
+        "offset": 47016,
+        "size": 10696
+      }
+    ],
+    "strong_name_signature_bytes": 0,
+    "subsystem": 2,
+    "table_schema_version": "2.0",
+    "tables_stream": "#~",
+    "target_frameworks": [
+      ".NETCoreApp,Version=v8.0"
+    ],
+    "warnings": []
+  },
+  "summary": "skills-browser 1.0.0.0: program (dotnet-core, il-only, x64), 134 types, 475 methods, 20 assembly references, 0 module references, targets .NETCoreApp,Version=v8.0.",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "static_only",
+      "message": "Read from the file only; nothing was loaded or run, so reflection and runtime-generated code are not seen."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "path",
+      "value": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\opencode\\skills_bundle\\skills-browser.dll"
+    }
+  ],
+  "links": []
+}

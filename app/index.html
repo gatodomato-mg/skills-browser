@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>skills·browser — as skills mais baixadas, em um clique</title>
+    <meta
+      name="description"
+      content="Leaderboard local das skills de agentes de IA mais instaladas do skills.sh, com instalacao global em um clique."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c9f76f'/%3E%3Cpath d='M16 6l2.4 7.6L26 16l-7.6 2.4L16 26l-2.4-7.6L6 16l7.6-2.4z' fill='%2308090a'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/styles.css?v=4" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow glow-a" aria-hidden="true"></div>
+    <div class="bg-glow glow-b" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="skills·browser">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>skills<span class="brand-dim">·</span>browser</span>
+      </a>
+
+      <div class="top-actions">
+        <span class="source-pill" id="source-pill" title="Fonte dos dados">
+          <span class="dot" aria-hidden="true"></span>
+          skills.sh
+        </span>
+        <button class="btn ghost" id="open-installed" type="button">
+          Instaladas
+          <span class="pill-count" id="installed-count">–</span>
+        </button>
+        <button
+          class="btn ghost square"
+          id="refresh"
+          type="button"
+          title="Atualizar dados"
+          aria-label="Atualizar dados"
+        >
+          <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">
+            <path
+              d="M20 11a8 8 0 1 0-2.3 6M20 5v6h-6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Open Agent Skills Ecosystem</p>
+          <h1>As skills mais baixadas,<br /><em>instaladas em um clique.</em></h1>
+          <p class="lede">
+            Ranking ao vivo do <a href="https://skills.sh" target="_blank" rel="noreferrer noopener">skills.sh</a>.
+            Escolha uma skill, instale globalmente e use em todos os seus agentes — OpenCode, Claude Code, Codex,
+            Cursor e mais.
+          </p>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-label">Instalações rastreadas</span>
+            <strong id="stat-installs">—</strong>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Skills no catálogo</span>
+            <strong id="stat-skills">—</strong>
+          </div>
+          <div class="stat accent">
+            <span class="stat-label">Instaladas aqui</span>
+            <strong id="stat-installed">—</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolbar">
+        <div class="tabs" role="tablist" aria-label="Ranking">
+          <button class="tab is-active" data-view="all-time" role="tab" aria-selected="true" type="button">
+            Mais baixadas
+          </button>
+          <button class="tab" data-view="trending" role="tab" aria-selected="false" type="button">
+            Em alta <span>24h</span>
+          </button>
+          <button class="tab" data-view="hot" role="tab" aria-selected="false" type="button">
+            Bombando <span>agora</span>
+          </button>
+        </div>
+
+        <div class="searchbox">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7" />
+            <path d="m16 16 4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+          </svg>
+          <input
+            id="search"
+            type="search"
+            placeholder="Buscar por skill, tema ou repositório"
+            autocomplete="off"
+            spellcheck="false"
+            aria-label="Buscar skills"
+          />
+          <kbd>/</kbd>
+        </div>
+      </section>
+
+      <div class="listbar">
+        <p id="list-context">Carregando ranking…</p>
+        <p id="search-mode" class="search-mode" hidden></p>
+      </div>
+
+      <section class="board">
+        <div class="board-head" aria-hidden="true">
+          <span>#</span>
+          <span>Skill</span>
+          <span class="col-spark">Atividade 8 sem.</span>
+          <span class="col-installs">Instalações</span>
+          <span class="col-action"></span>
+        </div>
+
+        <div id="rows" class="rows"></div>
+
+        <div id="empty" class="empty" hidden>
+          <span class="empty-mark" aria-hidden="true">∅</span>
+          <h2 id="empty-title">Nenhuma skill encontrada</h2>
+          <p id="empty-text">Tente outro termo de busca.</p>
+        </div>
+
+        <button id="load-more" class="load-more" type="button" hidden>
+          <span>Carregar mais</span>
+          <span class="load-more-label" id="load-more-label"></span>
+        </button>
+      </section>
+
+      <footer class="foot">
+        <p>
+          Dados públicos de <a href="https://skills.sh" target="_blank" rel="noreferrer noopener">skills.sh</a>.
+          Instalação via <code>npx skills</code> no escopo global.
+        </p>
+        <p class="warn">Skills executam com as permissões do seu agente. Revise antes de usar.</p>
+      </footer>
+    </main>
+
+    <div id="scrim" class="scrim" hidden></div>
+
+    <aside
+      id="panel"
+      class="panel"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="panel-title"
+      aria-hidden="true"
+    >
+      <div class="panel-head">
+        <div class="panel-head-row">
+          <p class="eyebrow" id="panel-eyebrow">Instalação global</p>
+          <button class="icon-btn" id="panel-close" type="button" aria-label="Fechar painel">✕</button>
+        </div>
+        <h2 id="panel-title">—</h2>
+        <p class="panel-source" id="panel-source"></p>
+      </div>
+
+      <div class="panel-body">
+        <div class="cmdbox">
+          <span class="cmd-label">comando</span>
+          <code id="panel-cmd"></code>
+          <button class="copy-btn" id="copy-cmd" type="button">Copiar</button>
+        </div>
+
+        <div class="panel-status" id="panel-status">
+          <span class="spinner" aria-hidden="true"></span>
+          <span>Executando…</span>
+        </div>
+
+        <pre id="panel-log" class="log" tabindex="0"></pre>
+
+        <p class="panel-note">
+          A instalação é global (<code>~/.agents/skills</code>) e acontece via <code>npx skills</code>. A skill fica
+          disponível para todos os agentes detectados nesta máquina.
+        </p>
+      </div>
+
+      <div class="panel-foot">
+        <a id="panel-link" class="btn ghost" target="_blank" rel="noreferrer noopener">Ver no skills.sh ↗</a>
+        <button id="panel-done" class="btn primary" type="button" disabled>Concluir</button>
+      </div>
+    </aside>
+
+    <aside
+      id="installed-panel"
+      class="panel"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="installed-title"
+      aria-hidden="true"
+    >
+      <div class="panel-head">
+        <div class="panel-head-row">
+          <p class="eyebrow">Escopo global</p>
+          <button class="icon-btn" id="installed-close" type="button" aria-label="Fechar painel">✕</button>
+        </div>
+        <h2 id="installed-title">Skills instaladas</h2>
+        <p class="panel-source" id="installed-subtitle">—</p>
+      </div>
+
+      <div class="panel-body">
+        <div id="installed-list" class="installed-list"></div>
+      </div>
+
+      <div class="panel-foot">
+        <button id="installed-refresh" class="btn ghost" type="button">Atualizar lista</button>
+        <a class="btn primary" href="https://skills.sh" target="_blank" rel="noreferrer noopener">Explorar catálogo ↗</a>
+      </div>
+    </aside>
+
+    <div id="toasts" class="toasts" aria-live="polite" aria-atomic="false"></div>
+
+    <script type="module" src="/app.js?v=4"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "id": "unk_459c8f06dfccbc05",
+  "revision": 1,
+  "question": "What can the user click, type, or do in the app?",
+  "severity": "medium",
+  "domain": "controls",
+  "status": "open",
+  "probes": [
+    "decompile event handlers and window procedure"
+  ],
+  "evidence_for": [],
+  "evidence_against": []
+}

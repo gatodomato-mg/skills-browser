@@ -1,0 +1,13 @@
+{
+  "id": "unk_9f78eed4455dd5ab",
+  "revision": 1,
+  "question": "Can we rebuild the main features in Rust/egui in app/?",
+  "severity": "medium",
+  "domain": "rebuild",
+  "status": "open",
+  "probes": [
+    "cargo build and screenshot comparison"
+  ],
+  "evidence_for": [],
+  "evidence_against": []
+}

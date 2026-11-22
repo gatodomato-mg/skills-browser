@@ -1,0 +1,33 @@
+{
+  "version": 5,
+  "name": "skills-browser",
+  "request": "Esse programa foi feito por mim e eu quero postalo no github mas pra isso eu preciso dos codigos em maos",
+  "target": {
+    "kind": "local",
+    "path": "C:\\Users\\Administrator\\Desktop\\Skills Browser v1\\skills-browser.exe"
+  },
+  "stack": "Rust + egui (eframe)",
+  "status": "needs_you",
+  "note": "9router from OpenCode (local): 9router from OpenCode (local) answered 400: [400]: {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Upstream request failed: Model is unavailable.\"}}. The request was rejected; see the message.",
+  "created_ms": 1795364556405,
+  "updated_ms": 1795365841875,
+  "checks": [],
+  "agent_session": null,
+  "capture_deep": true,
+  "allowed_actions": [],
+  "last_reply": "",
+  "asset_budget_usd": 5.0,
+  "generate_assets": false,
+  "builder": "9router from OpenCode (local)",
+  "questions": "ask",
+  "approvals": {
+    "web": "allow",
+    "commands": "allow",
+    "outside_files": "allow",
+    "publish": "allow",
+    "delete_outside": "allow",
+    "system": "allow",
+    "other_tools": "allow"
+  },
+  "decompiled": true
+}

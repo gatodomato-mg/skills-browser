@@ -1,0 +1,84 @@
+{
+  "id": "ev_72b605afb3579e3a6d043d8af5fc1a820f5192db168f580c729e4c9c6cc91dda",
+  "subject": {
+    "kind": "pe",
+    "sha256": "e653386e854b5588f212117bfa4e5bee7c0d52806e97bbf4f099a373e0c55e39",
+    "name": "skills-browser.exe"
+  },
+  "operation": "native_strings_find",
+  "params": {
+    "case_sensitive": false,
+    "limit": 200,
+    "mode": "literal",
+    "offset": 0,
+    "pattern": "skill"
+  },
+  "result": {
+    "matches": [
+      {
+        "address": "0x140024180",
+        "references": [
+          {
+            "from": "0x14000f378",
+            "function": "sub_14000f350"
+          }
+        ],
+        "section": ".data",
+        "text": "skills-browser.dll"
+      },
+      {
+        "address": "0x14002917c",
+        "references": [],
+        "section": ".rsrc",
+        "text": "skills-browser"
+      },
+      {
+        "address": "0x1400291c4",
+        "references": [],
+        "section": ".rsrc",
+        "text": "skills-browser"
+      },
+      {
+        "address": "0x140029234",
+        "references": [],
+        "section": ".rsrc",
+        "text": "skills-browser.dll"
+      },
+      {
+        "address": "0x1400292ac",
+        "references": [],
+        "section": ".rsrc",
+        "text": "skills-browser.dll"
+      },
+      {
+        "address": "0x1400292f4",
+        "references": [],
+        "section": ".rsrc",
+        "text": "skills-browser"
+      }
+    ],
+    "total": 6
+  },
+  "summary": "6 strings match \"skill\".",
+  "confidence": "observed",
+  "authority": "original-files",
+  "environment": {
+    "clean_room": false,
+    "engine": "builtin",
+    "engine_version": "0.6.1",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "data_sections_only",
+      "message": "only strings stored in the file are searched (absence is not proof)"
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 6,
+    "total": 6
+  },
+  "locations": [],
+  "links": []
+}
