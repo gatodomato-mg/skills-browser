@@ -108,7 +108,9 @@ function skillsInView() {
 }
 
 function skillById(id) {
-  return skillsInView().find((skill) => skill.id === id) || null;
+  return skillsInView().find((skill) =>
+    skill.id === id || skill.skillId === id || skill.name === id
+  ) || null;
 }
 
 function sparkline(values) {
@@ -643,8 +645,8 @@ async function runCommand({ eyebrow, title, source, command, link, endpoint, pay
 
 function openInstall(skill) {
   const isWellKnown = skill.sourceType === "well-known";
-  const spec = isWellKnown ? `https://${skill.source}/` : `${skill.source}@${skill.skillId}`;
-  const command = `npx skills add ${spec}${isWellKnown ? ` --skill ${skill.skillId}` : ""} -g -y`;
+  const spec = isWellKnown ? `https://${skill.source}/` : skill.source;
+  const command = `npx skills add ${spec} --skill ${skill.skillId} -g -y`;
 
   runCommand({
     eyebrow: "Instalação global",

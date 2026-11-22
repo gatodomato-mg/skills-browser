@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import shutil
 import subprocess
 import threading
 import webbrowser
@@ -29,6 +30,42 @@ def upstream(path: str, method: str = "GET", body: dict | None = None):
         return response.status, json.loads(raw.decode("utf-8"))
 
 
+def normalize_skill(item: dict):
+    normalized = dict(item)
+    source = str(normalized.get("source") or "")
+    skill_id = str(normalized.get("skillId") or normalized.get("name") or "")
+    normalized.setdefault("skillId", skill_id)
+    normalized.setdefault("name", skill_id)
+    normalized.setdefault("id", f"{source}/{skill_id}" if source else skill_id)
+    normalized.setdefault("url", f"https://www.skills.sh/{source}" if source else "https://www.skills.sh/")
+    normalized.setdefault("sourceType", None)
+    normalized.setdefault("installs", 0)
+    normalized.setdefault("weeklyInstalls", [])
+    return normalized
+
+
+def normalize_skills_payload(payload: dict):
+    normalized = dict(payload)
+    if isinstance(normalized.get("skills"), list):
+        normalized["skills"] = [normalize_skill(item) for item in normalized["skills"]]
+    return normalized
+
+
+def build_install_command(source: str, skill_id: str, source_type: str | None = None):
+    package = f"https://{source}/" if source_type == "well-known" else source
+    return ["skills", "add", package, "--skill", skill_id, "-g", "-y"]
+
+
+def build_remove_command(name: str):
+    return ["skills", "remove", name, "-g", "-y"]
+
+
+def resolve_npx():
+    if os.name == "nt":
+        return shutil.which("npx.cmd") or shutil.which("npx")
+    return shutil.which("npx")
+
+
 def installed_skills():
     if not GLOBAL_SKILLS.exists():
         return []
@@ -51,20 +88,23 @@ def installed_skills():
 def leaderboard_fallback(page: int, view: str):
     req = Request(UPSTREAM + "/", headers={"User-Agent": "skills-browser-local/1.0"})
     with urlopen(req, timeout=30) as response:
-        html = unescape(response.read().decode("utf-8")).replace(r'\"', '"')
-    match = re.search(r'"skills":(\[.*?\]),"page":(\d+),"total":(\d+),"hasMore":(true|false),"totalSkills":(\d+),"allTimeTotal":(\d+),"view":"([^"]+)"', html)
-    if not match:
+        html = response.read().decode("utf-8").replace('\\"', '"')
+    start = html.find('[{"source"')
+    if start < 0:
         raise RuntimeError("Não foi possível ler o ranking público")
-    skills = json.loads(match.group(1))
-    per_page = 50
-    start = max(0, page) * per_page
-    slice_skills = skills[start:start + per_page]
-    total = int(match.group(3))
+    skills, _ = json.JSONDecoder().raw_decode(html[start:])
+    total_match = re.search(r'"totalSkills":(\d+)', html[start:])
+    all_match = re.search(r'"allTimeTotal":(\d+)', html[start:])
+    total = int(total_match.group(1)) if total_match else len(skills)
+    page_size = 50
+    offset = max(0, page) * page_size
+    sliced = skills[offset:offset + page_size]
     return {
-        "skills": slice_skills,
+        "skills": [normalize_skill(item) for item in sliced],
         "page": page,
         "total": total,
-        "hasMore": start + len(slice_skills) < total,
+        "hasMore": offset + len(sliced) < total,
+        "allTimeTotal": int(all_match.group(1)) if all_match else 0,
     }
 
 
@@ -88,7 +128,7 @@ class Handler(BaseHTTPRequestHandler):
                     return self.send_json(status, data)
                 except Exception:
                     data = leaderboard_fallback(0, "all-time")
-                    return self.send_json(200, {"totalSkills": data["total"], "allTimeTotal": data["total"]})
+                    return self.send_json(200, {"totalSkills": data["total"], "allTimeTotal": data.get("allTimeTotal", 0)})
             if parsed.path == "/api/installed":
                 return self.send_json(200, {"skills": installed_skills()})
             if parsed.path == "/api/leaderboard":
@@ -97,7 +137,7 @@ class Handler(BaseHTTPRequestHandler):
                 page = int(query.get("page", ["0"])[0])
                 try:
                     status, data = upstream(f"/api/leaderboard?view={quote(view)}&page={page}")
-                    return self.send_json(status, data)
+                    return self.send_json(status, normalize_skills_payload(data))
                 except Exception:
                     data = leaderboard_fallback(page, view)
                     return self.send_json(200, data)
@@ -105,8 +145,20 @@ class Handler(BaseHTTPRequestHandler):
                 query = parse_qs(parsed.query)
                 q = query.get("q", [""])[0]
                 limit = query.get("limit", ["100"])[0]
-                status, data = upstream(f"/api/search?q={quote(q)}&limit={quote(limit)}")
-                return self.send_json(status, data)
+                try:
+                    status, data = upstream(f"/api/search?q={quote(q)}&limit={quote(limit)}")
+                    if isinstance(data, dict):
+                        data = normalize_skills_payload(data)
+                    return self.send_json(status, data)
+                except Exception:
+                    leaderboard = leaderboard_fallback(0, "all-time")
+                    needle = q.lower()
+                    skills = []
+                    for item in leaderboard["skills"]:
+                        text = " ".join([str(item.get("name", "")), str(item.get("skillId", "")), str(item.get("source", ""))]).lower()
+                        if needle in text:
+                            skills.append(normalize_skill(item))
+                    return self.send_json(200, {"query": q, "searchType": "approximate", "skills": skills})
             return self.serve_file(parsed.path)
         except Exception as exc:
             self.send_json(502, {"message": str(exc)})
@@ -122,15 +174,11 @@ class Handler(BaseHTTPRequestHandler):
             if parsed.path == "/api/install":
                 source = str(payload["source"])
                 skill_id = str(payload["skillId"])
-                if payload.get("sourceType") == "well-known":
-                    spec = f"https://{source}/"
-                    command = f"npx skills add {spec} --skill {skill_id} -g -y"
-                else:
-                    command = f"npx skills add {source}@{skill_id} -g -y"
-                return self.stream_command(command)
+                args = build_install_command(source, skill_id, payload.get("sourceType"))
+                return self.stream_command(args)
             if parsed.path == "/api/remove":
                 name = str(payload["name"])
-                return self.stream_command(f"npx skills remove {name} -g -y")
+                return self.stream_command(build_remove_command(name))
             return self.send_json(404, {"message": "Endpoint não encontrado"})
         except Exception as exc:
             self.send_json(502, {"message": str(exc)})
@@ -150,26 +198,39 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(raw)
 
-    def stream_command(self, command: str):
+    def stream_command(self, command: list[str]):
+        shell = resolve_npx()
         self.send_response(200)
         self.send_header("Content-Type", "application/octet-stream")
         self.send_header("Cache-Control", "no-cache")
         self.end_headers()
 
-        shell = "npx.cmd" if os.name == "nt" else "npx"
-        args = command.split(maxsplit=1)
-        process = subprocess.Popen(
-            [shell, *args[1].split()],
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            cwd=Path.home(),
-            text=True,
-            encoding="utf-8",
-            errors="replace",
-        )
+        if shell is None:
+            self.wfile.write(b"[erro] npx nao encontrado no PATH. Instale o Node.js e reinicie a aplicacao.\n")
+            self.wfile.write(b"[[exit:error]]")
+            self.wfile.flush()
+            return
+
+        try:
+            process = subprocess.Popen(
+                [shell, *command],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                cwd=Path.home(),
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+            )
+        except Exception as exc:
+            message = f"[erro] nao foi possivel iniciar o npx: {exc}\n".encode("utf-8")
+            self.wfile.write(message)
+            self.wfile.write(b"[[exit:error]]")
+            self.wfile.flush()
+            return
+
         assert process.stdout is not None
         for line in process.stdout:
-            self.wfile.write(line.encode("utf-8"))
+            self.wfile.write(line.encode("utf-8", errors="replace"))
             self.wfile.flush()
         code = process.wait()
         self.wfile.write(f"[[exit:{code}]]".encode("utf-8"))
