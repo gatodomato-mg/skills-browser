@@ -189,15 +189,15 @@ A aplicação tenta ler o campo `source` em `SKILL.md` quando ele está disponí
 ## Estrutura do projeto
 
 ```text
-app/
-├── index.html       Interface HTML recuperada
-├── styles.css       Tema visual, layout responsivo e animações
-├── app.js           Estado, busca, ranking e interação da interface
-├── server.py        Servidor HTTP local e integração com skills.sh/npx
-├── launch.bat       Inicialização no Windows
-├── test_server.py   Teste unitário básico
-├── README.md        Documentação do projeto
-└── __pycache__/     Cache gerado automaticamente pelo Python
+skills-browser/
+├── README.md        Documentação principal do projeto
+└── app/
+    ├── index.html       Interface HTML recuperada
+    ├── styles.css       Tema visual, layout responsivo e animações
+    ├── app.js           Estado, busca, ranking e interação da interface
+    ├── server.py        Servidor HTTP local e integração com skills.sh/npx
+    ├── launch.bat       Inicialização no Windows
+    └── test_server.py   Teste unitário básico
 ```
 
 ### `index.html`
